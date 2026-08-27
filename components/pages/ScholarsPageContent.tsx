@@ -44,6 +44,7 @@ export async function ScholarsPageContent({ locale }: { locale: string }) {
                             fill
                             sizes="(max-width: 768px) 100vw, 33vw"
                             className="object-cover"
+                            style={{ objectPosition: scholar.photoPosition ?? 'center' }}
                             loading="lazy"
                           />
                         ) : (

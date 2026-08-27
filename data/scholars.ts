@@ -3,6 +3,7 @@ export interface Scholar {
   nameAr: string
   nameEn: string
   photo?: string
+  photoPosition?: string
   country: string
   specialty: string
   aboutAr: string
@@ -30,21 +31,6 @@ export const SCHOLARS: Scholar[] = [
     aboutEn: 'Served as the General Mufti of Saudi Arabia and head of the Council of Senior Scholars and the Permanent Committee for Islamic Research and Ifta until his passing on September 23, 2025. His fatwas and works are published via the official Permanent Committee website.',
     website: 'https://alifta.gov.sa/',
     fatwaSite: 'https://alifta.gov.sa/',
-    category: 'saudi',
-  },
-  {
-    id: 2,
-    nameAr: 'الشيخ الدكتور صالح بن فوزان الفوزان',
-    nameEn: 'Sheikh Dr. Saleh Al-Fawzan',
-    photo: undefined,
-    country: 'السعودية',
-    specialty: 'عضو هيئة كبار العلماء واللجنة الدائمة للبحوث العلمية والإفتاء',
-    aboutAr: 'عالم وفقيه سعودي بارز، عضو هيئة كبار العلماء وعضو اللجنة الدائمة للبحوث العلمية والإفتاء، له مؤلفات وشروح فقهية معتمدة. أصدر توضيحاً رسمياً بأن حساباته الوحيدة المعتمدة هي التي يشرف عليها موقعه الرسمي.',
-    aboutEn: 'Prominent Saudi scholar and jurist, member of the Council of Senior Scholars and the Permanent Committee for Islamic Research and Ifta. He issued an official clarification naming his only authorized accounts.',
-    website: 'https://www.alfawzan.af.org.sa/ar',
-    youtube: 'https://www.youtube.com/user/salihalfawzan',
-    facebook: 'https://www.facebook.com/salihalfwzan',
-    lecturesSite: 'https://www.alfawzan.af.org.sa/ar/droos-main',
     category: 'saudi',
   },
   {
@@ -114,7 +100,8 @@ export const SCHOLARS: Scholar[] = [
     id: 8,
     nameAr: 'الدكتور ذاكر نايك',
     nameEn: 'Dr. Zakir Naik',
-    photo: 'https://zakirnaik.com/wp-content/uploads/2021/05/WhatsApp-Image-2021-05-08-at-09.14.18.jpeg',
+    photo: 'https://zakirnaik.com/wp-content/themes/zakir/assets/images/homepage/PeaceTV/zakir.png',
+    photoPosition: 'center 10%',
     country: 'الهند / ماليزيا',
     specialty: 'مقارنة الأديان والدعوة إلى الإسلام',
     aboutAr: 'مؤسس مؤسسة الأبحاث الإسلامية (IRF) وشبكة قناة السلام الفضائية، معروف بمحاضراته في مقارنة الأديان والحوارات الفكرية حول العالم.',
@@ -122,8 +109,6 @@ export const SCHOLARS: Scholar[] = [
     website: 'https://zakirnaik.com/',
     youtube: 'https://www.youtube.com/user/drzakirchannel',
     x: 'https://twitter.com/drzakiranaik',
-    facebook: 'https://www.facebook.com/zakirnaik/',
-    instagram: 'https://www.instagram.com/zakirnaikpersonal',
     category: 'international',
   },
   {
