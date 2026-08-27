@@ -551,7 +551,10 @@
   },
   "livePage": {
     "title": "Live Broadcast",
-    "subtitle": "Follow Islamic TV and radio channels live, in a comfortable experience that matches the site's identity."
+    "subtitle": "Follow Islamic TV and radio channels live, in a comfortable experience that matches the site's identity.",
+    "tvTitle": "Live TV Channels",
+    "radioTitle": "Islamic Radio Stations",
+    "radioPromo": "Let the voice of the Quran and Prophetic Hadith accompany you wherever you are — live radio streaming around the clock in high quality, just a tap away."
   },
   "scholarsPage": {
     "title": "Scholars & Preachers",

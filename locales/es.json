@@ -551,7 +551,10 @@
   },
   "livePage": {
     "title": "Transmisión en vivo",
-    "subtitle": "Sigue canales de TV y radio islámicos en vivo, en una experiencia cómoda acorde a la identidad del sitio."
+    "subtitle": "Sigue canales de TV y radio islámicos en vivo, en una experiencia cómoda acorde a la identidad del sitio.",
+    "tvTitle": "Canales de TV en vivo",
+    "radioTitle": "Emisoras de radio islámicas",
+    "radioPromo": "Deja que la voz del Corán y los hadices proféticos te acompañe donde quiera que estés: radio en vivo las 24 horas, en alta calidad, a solo un clic de distancia."
   },
   "scholarsPage": {
     "title": "Eruditos y predicadores",

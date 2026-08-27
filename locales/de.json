@@ -551,7 +551,10 @@
   },
   "livePage": {
     "title": "Live-Übertragung",
-    "subtitle": "Verfolge islamische TV- und Radiokanäle live, in einem angenehmen Erlebnis passend zur Identität der Website."
+    "subtitle": "Verfolge islamische TV- und Radiokanäle live, in einem angenehmen Erlebnis passend zur Identität der Website.",
+    "tvTitle": "Live-TV-Kanäle",
+    "radioTitle": "Islamische Radiosender",
+    "radioPromo": "Lass die Stimme des Korans und der Prophetenüberlieferungen dich begleiten, wo immer du bist – Live-Radio rund um die Uhr in hoher Qualität, nur einen Klick entfernt."
   },
   "scholarsPage": {
     "title": "Gelehrte und Prediger",

@@ -551,7 +551,10 @@
   },
   "livePage": {
     "title": "Diffusion en direct",
-    "subtitle": "Suivez les chaînes de télévision et de radio islamiques en direct, dans une expérience confortable adaptée à l'identité du site."
+    "subtitle": "Suivez les chaînes de télévision et de radio islamiques en direct, dans une expérience confortable adaptée à l'identité du site.",
+    "tvTitle": "Chaînes TV en direct",
+    "radioTitle": "Radios islamiques",
+    "radioPromo": "Laissez la voix du Coran et des hadiths prophétiques vous accompagner où que vous soyez : radio en direct, 24h/24, en haute qualité, à portée d'un clic."
   },
   "scholarsPage": {
     "title": "Savants et prédicateurs",

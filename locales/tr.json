@@ -551,7 +551,10 @@
   },
   "livePage": {
     "title": "Canlı Yayın",
-    "subtitle": "Sitenin kimliğine uygun, rahat bir deneyimle İslami TV ve radyo kanallarını canlı takip edin."
+    "subtitle": "Sitenin kimliğine uygun, rahat bir deneyimle İslami TV ve radyo kanallarını canlı takip edin.",
+    "tvTitle": "Canlı TV Kanalları",
+    "radioTitle": "İslami Radyo Kanalları",
+    "radioPromo": "Kur'an-ı Kerim ve Peygamber hadislerinin sesi nerede olursanız olun size eşlik etsin; yüksek kalitede, günün her saati canlı radyo yayını sadece bir tık uzağınızda."
   },
   "scholarsPage": {
     "title": "Alimler ve Vaizler",
