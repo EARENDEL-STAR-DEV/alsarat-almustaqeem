@@ -25,9 +25,24 @@ function truncateAtSentence(text: string, maxLen: number): string {
 }
 
 export async function GET(req: NextRequest) {
-  const raw = req.nextUrl.searchParams.get('text')?.trim() ?? ''
-  const lang = req.nextUrl.searchParams.get('lang') ?? 'ar'
-  const VOICE = getVoice(lang, req.nextUrl.searchParams.get('voice'))
+  const params = req.nextUrl.searchParams
+  return speak(params.get('text') ?? '', params.get('lang') ?? 'ar', params.get('voice'))
+}
+
+// Preferred for long texts: non-Latin scripts (Arabic with diacritics, Hindi, ...)
+// percent-encode to 10k+ chars, which hosting proxies reject with 414 URI Too Long.
+export async function POST(req: NextRequest) {
+  const body = await req.json().catch(() => null)
+  return speak(
+    typeof body?.text === 'string' ? body.text : '',
+    typeof body?.lang === 'string' ? body.lang : 'ar',
+    typeof body?.voice === 'string' ? body.voice : null,
+  )
+}
+
+async function speak(input: string, lang: string, voiceOverride: string | null) {
+  const raw = input.trim()
+  const VOICE = getVoice(lang, voiceOverride)
   if (!raw) return NextResponse.json({ error: 'text required' }, { status: 400 })
 
   // Clean markdown symbols and emojis

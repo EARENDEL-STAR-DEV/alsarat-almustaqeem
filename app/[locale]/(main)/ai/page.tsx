@@ -88,7 +88,11 @@ export default function AIPage() {
     setSpeaking(msgId)
     if (ttsMode === 'server') {
       try {
-        const res = await fetch(`/api/ai/speak?text=${encodeURIComponent(text.slice(0, 500))}&lang=${locale}`)
+        const res = await fetch('/api/ai/speak', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text: text.slice(0, 500), lang: locale }),
+        })
         if (!res.ok) throw new Error()
         const blob = await res.blob()
         const url = URL.createObjectURL(blob)

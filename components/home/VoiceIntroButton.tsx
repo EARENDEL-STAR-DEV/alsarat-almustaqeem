@@ -102,11 +102,17 @@ export function VoiceIntroButton() {
       // Arabic listeners get a dedicated Egyptian Arabic narrator instead of the
       // English multilingual voice, so it sounds like a natural Arabic speaker
       // rather than a foreign accent reading Arabic text.
-      const voiceParam = `&voice=${locale === 'ar' ? arabicVoiceIntroVoice : voiceIntroVoice}`
-      const res = await fetch(
-        `/api/ai/speak?text=${encodeURIComponent(text)}&lang=${locale}${voiceParam}`,
-        { signal: controller.signal },
-      )
+      // POST, not GET: the encoded intro text is too long for a URL on the host.
+      const res = await fetch('/api/ai/speak', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          text,
+          lang: locale,
+          voice: locale === 'ar' ? arabicVoiceIntroVoice : voiceIntroVoice,
+        }),
+        signal: controller.signal,
+      })
       if (isStale()) return
       if (!res.ok) throw new Error('tts_unavailable')
 
