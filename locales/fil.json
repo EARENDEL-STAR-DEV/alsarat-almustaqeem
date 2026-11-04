@@ -1,0 +1,613 @@
+{
+  "meta": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "siteDesc": "Isang kumpletong Islamikong plataporma para sa Banal na Qur'an, Sunnah ng Propeta, at mga agham ng Islam"
+  },
+  "nav": {
+    "home": "Home",
+    "quran": "Qur'an",
+    "hadith": "Hadith",
+    "adhkar": "Adhkar",
+    "prophets": "Mga Propeta",
+    "live": "Live",
+    "scholars": "Mga Iskolar",
+    "kids": "Bata",
+    "islamicVideos": "Mga Islamikong Video",
+    "library": "Aklatan",
+    "mainSection": "Pangunahin",
+    "seerah": "Seerah",
+    "asmaAllah": "Mga Pangalan ni Allah",
+    "prayerTimes": "Oras ng Pagdarasal",
+    "search": "Maghanap",
+    "toggleTheme": "Palitan ang Tema",
+    "openMenu": "Buksan ang menu",
+    "closeMenu": "Isara ang menu",
+    "language": "Wika"
+  },
+  "footer": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "siteDesc": "Isang kumpletong Islamikong plataporma para sa Banal na Qur'an, Sunnah ng Propeta, at mga agham ng Islam",
+    "sections": {
+      "quranHadith": "Qur'an at Hadith",
+      "adhkarDua": "Adhkar at Dua",
+      "islamicSciences": "Mga Agham ng Islam",
+      "services": "Mga Serbisyo"
+    },
+    "links": {
+      "quran": "Banal na Qur'an",
+      "tafsir": "Tafsir",
+      "bukhari": "Sahih al-Bukhari",
+      "muslim": "Sahih Muslim",
+      "morningAdhkar": "Adhkar sa Umaga",
+      "eveningAdhkar": "Adhkar sa Gabi",
+      "hisnMuslim": "Hisn al-Muslim",
+      "travelAdhkar": "Adhkar sa Paglalakbay",
+      "prophetsStories": "Mga Kuwento ng mga Propeta",
+      "seerah": "Talambuhay ng Propeta",
+      "asmaAllah": "99 Pangalan ni Allah",
+      "prayerTimes": "Oras ng Pagdarasal",
+      "search": "Komprehensibong Paghahanap",
+      "aiAssistant": "Islamikong Katuwang"
+    },
+    "privacy": "Patakaran sa Privacy",
+    "terms": "Mga Tuntunin at Kundisyon",
+    "contact": "Makipag-ugnayan sa Amin",
+    "copyright": "Nakalaan ang lahat ng karapatan"
+  },
+  "home": {
+    "bismillah": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+    "title": "As-Sirat Al-Mustaqeem",
+    "subtitle": "Isang kumpletong Islamikong plataporma para sa Banal na Qur'an, Sunnah ng Propeta, at mga agham ng Islam",
+    "ayah": "﴿ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴾",
+    "surahRef": "Surah Al-Fatiha — Talata 6",
+    "btnQuran": "📖 Banal na Qur'an",
+    "btnAdhkar": "📿 Adhkar",
+    "btnAI": "🤖 AI na Katuwang",
+    "stats": {
+      "verses": "Mga Talata ng Qur'an",
+      "hadiths": "Mga Hadith",
+      "prophets": "Mga Kuwento ng Propeta",
+      "names": "Mga Pangalan ni Allah"
+    },
+    "sectionTitle": "Mga Seksyon ng Website",
+    "sectionDesc": "Lahat ng kailangan ng isang Muslim sa iisang lugar",
+    "features": {
+      "quran": {
+        "title": "Banal na Qur'an",
+        "desc": "Kumpletong Qur'an na may tafsir at paghahanap ng talata",
+        "badge": "114 Surah"
+      },
+      "hadith": {
+        "title": "Mga Hadith ng Propeta",
+        "desc": "Sahih al-Bukhari, Muslim, at ang mga pangunahing Sunan na may klasipikasyon",
+        "badge": "6 na Aklat"
+      },
+      "adhkar": {
+        "title": "Adhkar at Dua",
+        "desc": "Kumpletong Hisn al-Muslim — adhkar sa umaga, gabi, at pagtulog",
+        "badge": "200+ Adhkar"
+      },
+      "prophets": {
+        "title": "Mga Kuwento ng mga Propeta",
+        "desc": "Mga kuwento ng lahat ng propetang binanggit sa Qur'an",
+        "badge": "25 Propeta"
+      },
+      "seerah": {
+        "title": "Talambuhay ng Propeta",
+        "desc": "Kumpletong buhay ng Propeta ﷺ — mula sa kapanganakan hanggang sa pagpanaw",
+        "badge": "Kumpleto"
+      },
+      "asmaAllah": {
+        "title": "99 Pangalan ni Allah",
+        "desc": "Paliwanag sa 99 na pangalan kasama ang mga kahulugan at kabutihan nito",
+        "badge": "99 Pangalan"
+      },
+      "prayerTimes": {
+        "title": "Oras ng Pagdarasal",
+        "desc": "Tumpak na oras ng pagdarasal para sa lahat ng lungsod sa buong mundo",
+        "badge": "Tumpak"
+      },
+      "ai": {
+        "title": "AI na Islamikong Katuwang",
+        "desc": "Magtanong ng kahit ano — mga sagot mula sa Qur'an at Sunnah",
+        "badge": "AI"
+      }
+    },
+    "dailyAyah": "Talata ng Araw",
+    "dailyAyahRef": "Surah At-Talaq — Mga Talata 2-3",
+    "readFullSurah": "Basahin ang buong Surah",
+    "aiTitle": "Ang AI na Islamikong Katuwang na \"Al-Rashid\"",
+    "aiDesc": "Magtanong ng anumang Islamikong tanong at sasagot ang katuwang mula sa Banal na Qur'an at sa tunay na Sunnah ng Propeta",
+    "aiBtn": "Simulan ang Pag-uusap",
+    "servicesTitle": "Mga Islamikong Serbisyo",
+    "servicesDesc": "Mga piling serbisyo para sa iyong pang-araw-araw na pangangailangang Islamiko",
+    "services": {
+      "live": {
+        "title": "Live",
+        "desc": "Direktang manood ng mga Islamikong channel"
+      },
+      "scholars": {
+        "title": "Mga Iskolar",
+        "desc": "Kilalanin ang mga mapagkakatiwalaang iskolar at mangangaral"
+      },
+      "kids": {
+        "title": "Edukasyon ng mga Bata",
+        "desc": "Simple at angkop sa batang mga aralin sa Islam"
+      },
+      "hadith": {
+        "title": "Hadith",
+        "desc": "Mga piling hadith na may paghahanap at pagbabahagi"
+      }
+    },
+    "featuresVideos": {
+      "title": "Mga Islamikong Video",
+      "desc": "Mga mapagkakatiwalaang lektura mula sa opisyal na Islamikong channel"
+    },
+    "btnWatchVideos": "📺 Manood ng mga Video",
+    "btnLiveMakkah": "📡 Live mula sa Makkah",
+    "journey": {
+      "title": "Simulan ang Iyong Paglalakbay",
+      "subtitle": "Isang simple at sunud-sunod na gabay para sa sinumang interesado sa Islam",
+      "steps": {
+        "islam": "Ano ang Islam?",
+        "allah": "Sino si Allah?",
+        "prophet": "Sino si Propeta Muhammad ﷺ?",
+        "quran": "Ano ang Qur'an?",
+        "prayer": "Bakit tayo nagdarasal?",
+        "ramadan": "Ramadan",
+        "hajj": "Hajj",
+        "live": "Panoorin ang Makkah nang Live",
+        "ai": "Magtanong sa AI"
+      }
+    },
+    "whyExplore": {
+      "title": "Bakit Dapat Kilalanin ang Islam",
+      "subtitle": "Mga pandaigdigang pagpapahalagang pantao sa puso ng Islam",
+      "values": {
+        "mercy": {
+          "title": "Awa",
+          "desc": "Sinisimulan ng mga Muslim ang bawat gawain sa ngalan ng Pinakamaawain — ang awa ay sentro sa pagtingin ng Islam sa lahat ng nilikha.",
+          "ref": "Surah Al-Anbiya — Talata 107"
+        },
+        "justice": {
+          "title": "Katarungan",
+          "desc": "Ipinag-uutos ng Islam ang katarungan kahit sa mga hindi natin gusto, at malapit itong iniuugnay sa kabanalan.",
+          "ref": "Surah Al-Ma'idah — Talata 8"
+        },
+        "compassion": {
+          "title": "Malasakit",
+          "desc": "Inilarawan ng Propeta ﷺ ang mga mananampalataya bilang iisang katawan sa kanilang pagmamalasakit sa isa't isa.",
+          "ref": "Pinagkasunduan (Muttafaq Alayh)"
+        },
+        "knowledge": {
+          "title": "Kaalaman",
+          "desc": "Ang unang kapahayagan ng Qur'an ay utos na magbasa — ang paghahanap ng kaalaman ay tungkulin ng bawat Muslim.",
+          "ref": "Surah Al-Alaq — Talata 1"
+        },
+        "family": {
+          "title": "Pamilya",
+          "desc": "Binibigyang-diin ng Islam ang paggalang sa mga magulang at ang pagpapanatili ng ugnayan ng pamilya.",
+          "ref": "Surah Al-Isra — Talata 23"
+        },
+        "hope": {
+          "title": "Pag-asa",
+          "desc": "Ipinagbabawal ng Islam ang mawalan ng pag-asa sa awa ng Diyos, gaano man kabigat ang pagsubok.",
+          "ref": "Surah Az-Zumar — Talata 53"
+        },
+        "peace": {
+          "title": "Kapayapaan",
+          "desc": "Ang salitang \"Islam\" ay kaugat ng salitang \"kapayapaan\", at ito ang ipinambabati ng mga Muslim sa isa't isa.",
+          "ref": "Surah An-Nisa — Talata 94"
+        },
+        "honesty": {
+          "title": "Katapatan",
+          "desc": "Hinimok ng Propeta ﷺ ang pagsasabi ng totoo hanggang madala nito ang tao sa hanay ng mga matapat.",
+          "ref": "Pinagkasunduan (Muttafaq Alayh)"
+        }
+      }
+    },
+    "meetProphet": {
+      "title": "Kilalanin si Propeta Muhammad ﷺ",
+      "subtitle": "Ang huling propeta, isang awa sa lahat ng daigdig, na pinagpahayagan ng Qur'an",
+      "cta": "Magbasa Pa"
+    },
+    "discoverQuran": {
+      "title": "Tuklasin ang Qur'an",
+      "subtitle": "6,236 talata na abot-kamay mo — magbasa, makinig, at maghanap",
+      "tiles": {
+        "read": "Basahin",
+        "listen": "Pakinggan",
+        "translations": "Mga Salin",
+        "randomVerse": "Random na Talata",
+        "search": "Maghanap",
+        "continueReading": "Ipagpatuloy ang Pagbabasa"
+      }
+    },
+    "fivePillarsSection": {
+      "title": "Ang Limang Haligi ng Islam",
+      "subtitle": "Ang pundasyon ng buhay ng isang Muslim",
+      "pillars": {
+        "shahada": {
+          "name": "Shahada",
+          "desc": "Pagsaksi na walang diyos maliban kay Allah, at si Muhammad ay Kanyang sugo"
+        },
+        "salah": {
+          "name": "Salah",
+          "desc": "Limang pang-araw-araw na pagdarasal na nag-uugnay sa mananampalataya sa Diyos"
+        },
+        "zakat": {
+          "name": "Zakat",
+          "desc": "Pagbibigay ng bahagi ng yaman sa mga nangangailangan"
+        },
+        "sawm": {
+          "name": "Sawm",
+          "desc": "Pag-aayuno sa buwan ng Ramadan para sa disiplina sa sarili at kamalayan sa Diyos"
+        },
+        "hajj": {
+          "name": "Hajj",
+          "desc": "Paglalakbay sa Makkah nang minsan sa buhay para sa mga may kakayahan"
+        }
+      }
+    },
+    "worldStats": {
+      "title": "Ang Islam sa Buong Mundo",
+      "stats": {
+        "muslims": "Mga Muslim sa buong mundo",
+        "countries": "Mga bansang karamihan ay Muslim",
+        "religion": "Pinakamalaking relihiyon ayon sa paglago",
+        "history": "Mga taon ng tuloy-tuloy na kasaysayan"
+      }
+    },
+    "faqSection": {
+      "title": "Mga Madalas Itanong",
+      "subtitle": "Maiikling sagot sa mga pinakakaraniwang tanong tungkol sa Islam"
+    },
+    "watchLearn": {
+      "title": "Manood at Matuto",
+      "subtitle": "Mga lektura mula lamang sa beripikadong opisyal na Islamikong channel",
+      "playAria": "I-play ang video: {title}",
+      "seeAll": "Tingnan ang lahat ng video"
+    },
+    "liveMakkah": {
+      "title": "Live mula sa Makkah at Madinah",
+      "subtitle": "Subaybayan ang opisyal na 24/7 na brodkast mula sa Dalawang Banal na Moske",
+      "status": "Live na brodkast",
+      "seeAll": "Tingnan ang lahat ng live na channel"
+    },
+    "trustedScholarsSection": {
+      "title": "Mga Mapagkakatiwalaang Iskolar",
+      "subtitle": "Kilalanin ang mga beripikadong iskolar at mangangaral, na naka-link lamang sa kanilang opisyal na sanggunian",
+      "seeAll": "Tingnan ang lahat ng iskolar"
+    },
+    "dailyInspiration": {
+      "title": "Pang-araw-araw na Inspirasyon",
+      "subtitle": "Isang talata, isang hadith, at isang dua — binabago araw-araw"
+    },
+    "todaysPicks": {
+      "featuredVideo": "Tampok na Video Ngayon",
+      "featuredScholar": "Tampok na Iskolar Ngayon"
+    },
+    "finalCta": {
+      "title": "Ipagpatuloy ang Iyong Paglalakbay",
+      "subtitle": "Saan ka man magsimula, narito ang site na ito upang samahan ka sa bawat hakbang",
+      "btnQuran": "📖 Basahin ang Qur'an",
+      "btnAI": "🤖 Magtanong sa AI",
+      "btnVideos": "📺 Manood ng mga Video",
+      "btnLearnMore": "🌟 Alamin Pa"
+    },
+    "voiceIntro": {
+      "listen": "🔊 Makinig sa Panimula",
+      "stop": "⏹ Itigil",
+      "unavailable": "Hindi available ang voice narration sa iyong browser para sa wikang ito.",
+      "text": "Sumainyo nawa ang kapayapaan at mga pagpapala, at maligayang pagdating sa As-Sirat Al-Mustaqeem.\n\nAng Islam ay relihiyon ng kaisahan ng Diyos at ng awa. Inaanyayahan nito ang mga tao na sambahin ang Nag-iisang Diyos lamang, at nakasalig ito sa katarungan at malasakit sa lahat ng nilikha. Isinugo ng Diyos si Propeta Muhammad, sumakanya nawa ang kapayapaan, bilang awa sa buong daigdig.\n\nIniaalok sa iyo ng website na ito ang isang kumpletong paglalakbay sa lahat ng may kaugnayan sa iyong pananampalataya, mula simula hanggang wakas: ang buong Banal na Qur'an na may paliwanag at pagbigkas, ang mga tunay na hadith ng Propeta mula sa mapagkakatiwalaang koleksyon, ang mga kuwento ng mga propeta ayon sa Qur'an, ang kumpletong talambuhay ng Propeta mula sa kapanganakan hanggang sa pagpanaw, ang siyamnapu't siyam na Magagandang Pangalan ni Allah kasama ang mga kahulugan at kabutihan nito, at isang komprehensibong koleksyon ng pang-araw-araw na adhkar.\n\nMakikita mo rin dito ang seksyon tungkol sa mga mapagkakatiwalaang iskolar at mangangaral, isang aklatan ng makabuluhang Islamikong video, isang buong-araw na live na brodkast mula sa Dalawang Banal na Moske, tumpak na oras ng pagdarasal para sa iyong lungsod, isang natatanging seksyon upang maituro sa iyong mga anak ang mga batayan ng kanilang pananampalataya sa kawili-wiling paraan, at isang paghahanap upang mabilis mong makita ang anumang nilalamang hinahanap mo.\n\nHuwag kang magmadali, at tuklasin ang anumang kinawiwilihan mo, nang walang anumang panggigipit. Bukas ang pintong ito sa sinumang nais matuto, magtanong, o magnilay lamang.\n\nAt kung may tanong na sumagi sa iyong isip, handang sagutin ito ng aming AI na katuwang, si Al-Rashid, mula sa Qur'an at sa Sunnah ng Propeta, anumang oras.\n\nNawa'y maging kaaya-aya at makabuluhan ang iyong paglalakbay."
+    }
+  },
+  "quran": {
+    "title": "Banal na Qur'an",
+    "subtitle": "Salita ni Allah na ipinahayag kay Propeta Muhammad ﷺ — 114 Surah — 6,236 Talata",
+    "searchPlaceholder": "Maghanap ng Surah ayon sa pangalan o numero...",
+    "resultsCount": "{count} resulta",
+    "noResults": "Walang Surah na may ganitong pangalan",
+    "clearSearch": "Burahin ang Paghahanap",
+    "surahsLabel": "Mga Surah",
+    "versesLabel": "Mga Talata",
+    "ajzaLabel": "Ajza",
+    "ayahsCount": "talata",
+    "meccan": "Makkan",
+    "medinan": "Madinan",
+    "backToList": "Bumalik sa Listahan ng Surah",
+    "copy": "Kopyahin",
+    "showTranslation": "Ipakita ang Salin",
+    "modeList": "Bawat Talata",
+    "modeReading": "Tuloy-tuloy na Teksto",
+    "page": "Pahina",
+    "copied": "Nakopya",
+    "prevSurah": "Nakaraang Surah",
+    "juz": "Juz",
+    "nextSurah": "Susunod na Surah",
+    "referenceTitle": "Sanggunian sa Qur'an",
+    "referenceDesc": "Sa panlabas na sanggunian na ito, mababasa mo ang Banal na Qur'an sa sulat Uthmani, makikinig sa mga pagbigkas, makababasa ng tafsir, makapaghahanap ng mga talata, at madaling makapagba-browse ng mga surah.\nHindi ipinapakita ng site na ito ang mismong nilalaman ng sanggunian — nagbibigay lamang ito ng mabilis na daan dito.",
+    "referenceLinkBtn": "Pumunta sa Sanggunian sa Qur'an",
+    "referenceFeatures": {
+      "read": {
+        "title": "📖 Basahin ang Banal na Qur'an",
+        "desc": "Direktang basahin ang Banal na Qur'an sa malinaw na sulat Uthmani."
+      },
+      "listen": {
+        "title": "🎧 Makinig sa mga Pagbigkas",
+        "desc": "Makinig sa mga pagbigkas mula sa mapagkakatiwalaang sanggunian sa panlabas na site."
+      },
+      "tafsir": {
+        "title": "📚 Tafsir ng Qur'an",
+        "desc": "Madaling mag-browse ng iba't ibang tafsir ng mga talata."
+      },
+      "search": {
+        "title": "🔍 Maghanap sa Qur'an",
+        "desc": "Maghanap ng mga talata at surah nang mabilis at tumpak."
+      },
+      "browse": {
+        "title": "⭐ I-browse ang Lahat ng Surah",
+        "desc": "Madaling i-browse ang buong listahan ng mga surah."
+      }
+    },
+    "referenceNote": "Magbubukas ang sanggunian sa bagong window upang magamit mo ang lahat ng serbisyo nito at madaling makabalik sa aming site."
+  },
+  "hadith": {
+    "title": "Ang Marangal na mga Hadith ng Propeta",
+    "subtitle": "قَالَ رَسُولُ اللَّهِ ﷺ",
+    "booksTitle": "Mga Aklat ng Hadith",
+    "selectedTitle": "Mga Piling Hadith",
+    "hadithsUnit": "hadith",
+    "narrator": "Isinalaysay ni",
+    "grades": {
+      "SAHIH": "Sahih",
+      "HASAN": "Hasan",
+      "DAIF": "Da'if",
+      "MAWDU": "Mawdu'"
+    },
+    "heroDesc": "Isang piling koleksyon ng mga sahih at hasan na hadith mula sa Al-Arba'in Al-Nawawiyyah at Riyad al-Saliheen, na inuri ayon sa paksa at antas.",
+    "dorarTitle": "Maghanap sa Ensiklopedya ng Dorar Al-Saniyyah",
+    "dorarDesc": "Maghanap ng milyun-milyong hadith at paksa nang direkta sa website ng Dorar Al-Saniyyah, na may mabilis na link sa paghahanap at mga natatanging ensiklopedya.",
+    "dorarPlaceholder": "I-type ang hahanapin at pindutin ang maghanap",
+    "dorarSearchBtn": "Maghanap",
+    "visitDorar": "Bisitahin ang Ensiklopedya ng Dorar Al-Saniyyah",
+    "servicesTitle": "Mga Serbisyo ng Dorar Al-Saniyyah",
+    "servicesDesc": "Mabilis na link sa mga pangunahing ensiklopedya ng Dorar Al-Saniyyah upang direkta kang makapunta sa mga aklat at serbisyong hinahanap mo.",
+    "serviceOpenDesc": "Binubuksan ang kaugnay na seksyon sa website ng Dorar Al-Saniyyah.",
+    "services": {
+      "encyclopedia": "Ensiklopedya ng Hadith",
+      "adhkar": "Adhkar",
+      "duas": "Mga Dua",
+      "scientific": "Ensiklopedyang Pang-agham",
+      "fiqh": "Ensiklopedya ng Fiqh"
+    },
+    "filterPlaceholder": "Maghanap ng hadith, tagapagsalaysay, o paksa",
+    "categoriesLabel": "Mga Kategorya:",
+    "shareTitle": "Islamikong Hadith",
+    "copyHadithBtn": "Kopyahin ang Hadith",
+    "shareHadithBtn": "Ibahagi ang Hadith"
+  },
+  "adhkar": {
+    "title": "Adhkar at Dua",
+    "subtitle": "Hisn al-Muslim — Mga adhkar na isinalaysay mula sa Propeta ﷺ",
+    "source": "Sanggunian",
+    "of": "sa",
+    "categories": {
+      "MORNING": "Adhkar sa Umaga",
+      "EVENING": "Adhkar sa Gabi",
+      "SLEEP": "Adhkar sa Pagtulog",
+      "WAKE_UP": "Adhkar sa Paggising",
+      "PRAYER": "Adhkar sa Pagdarasal",
+      "TRAVEL": "Adhkar sa Paglalakbay",
+      "FOOD": "Adhkar sa Pagkain",
+      "GENERAL": "Pangkalahatang Adhkar"
+    },
+    "searchPlaceholder": "Maghanap ng adhkar at dua...",
+    "noResults": "Walang nakitang tugmang resulta"
+  },
+  "prophets": {
+    "title": "Mga Kuwento ng mga Propeta at Sugo",
+    "ayah": "﴿ وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ أَنبَاءِ الرُّسُلِ ﴾",
+    "inQuran": "× sa Qur'an",
+    "backToList": "← Bumalik sa listahan ng mga Propeta",
+    "storyTitle": "Ang Kuwento",
+    "lessonsTitle": "Mga Aral at Pagninilay",
+    "referencesTitle": "Mga Pagbanggit sa Qur'an"
+  },
+  "seerah": {
+    "title": "Ang Talambuhay ng Propeta",
+    "subtitle": "Muhammad, Sugo ni Allah ﷺ",
+    "period": "570 CE — 632 CE | 23 taon ng pagkapropeta",
+    "age": "taon ng kanyang buhay ﷺ",
+    "prophethood": "taon ng pagkapropeta",
+    "battles": "mga labanan",
+    "closingAyahRef": "Surah Al-Ahzab — Talata 21",
+    "closingAyah": "﴿ لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ ﴾"
+  },
+  "ai": {
+    "title": "Al-Rashid",
+    "subtitle": "AI na Islamikong Katuwang — Mga sagot mula sa Qur'an at Sunnah",
+    "online": "Online Ngayon",
+    "soundOn": "Naka-on ang Tunog",
+    "soundOff": "Naka-off ang Tunog",
+    "serverTTS": "Neural na Boses",
+    "browserTTS": "Browser",
+    "stop": "Itigil",
+    "listen": "🔊 Pakinggan",
+    "placeholder": "I-type dito ang iyong Islamikong tanong...",
+    "disclaimer": "Sumasagot ang katuwang batay sa Qur'an at Sunnah ng Propeta — laging suriin ang mga sanggunian",
+    "greeting": "Sumainyo ang kapayapaan (Assalamu Alaikum) 🌙\n\nAko si \"Al-Rashid\", ang iyong AI na Islamikong katuwang. Sinasagot ko ang iyong mga tanong mula sa Banal na Qur'an at sa tunay na Sunnah ng Propeta.\n\nPaano kita matutulungan ngayon?",
+    "errorGeneral": "Paumanhin, nagkaroon ng error. Pakisubukang muli.",
+    "errorConnection": "Paumanhin, nagkaroon ng error sa koneksyon. Tiyaking naka-configure ang API key.",
+    "userAvatar": "I",
+    "quickQuestions": [
+      "Ano ang Limang Haligi ng Islam?",
+      "Ano ang kabutihan ng pagbabasa ng Qur'an?",
+      "Ano ang Anim na Haligi ng Pananampalataya?",
+      "Ipaliwanag ang kahulugan ng Tawhid",
+      "Ano ang hatol sa pagdarasal sa Islam?",
+      "Ano ang kabutihan ng paghingi ng tawad (Istighfar)?"
+    ]
+  },
+  "videos": {
+    "title": "📺 Mga Islamikong Video",
+    "subtitle": "Isang propesyonal na Islamikong sanggunian na may mga lektura, aralin, at mapagkakatiwalaang dawah clip mula sa mga kilalang iskolar at mangangaral, upang matuto ka at makabalik sa katotohanan nang may tiwala.",
+    "quickSearch": "Mabilis at mabisang paghahanap",
+    "searchPlaceholder": "Maghanap ng video ayon sa pamagat, channel, tagapagsalita, o kategorya",
+    "categoryFilter": "Kategorya",
+    "channelAndSpeaker": "Channel at Tagapagsalita",
+    "statsAvailable": "Mga available na video",
+    "statsFeatured": "Tampok na nilalaman",
+    "statsFeaturedDesc": "Mga piling mapagkakatiwalaan",
+    "discover": "Tuklasin ang Islam",
+    "discoverDesc": "Kung nais mong makilala ang Islam at ang mensahe ni Propeta Muhammad ﷺ, makikita mo rito ang piling panimulang mga video na may maaasahan at malinaw na impormasyon.",
+    "sectionDesc": "Isang piling koleksyon ng mga video na may kaugnayan sa larangang Islamikong ito.",
+    "referenceTitle": "Propesyonal na Islamikong Sanggunian",
+    "referenceDesc": "Ang lahat ng video ay inihaharap bilang opisyal na YouTube link na may paghahanap, pagsasala, mga paborito, at pagbabahagi, habang pinapanatili ang biswal na pagkakakilanlan at kalidad ng site.",
+    "watchNow": "Panoorin ngayon",
+    "share": "Ibahagi",
+    "copyLink": "Kopyahin ang link",
+    "saved": "Na-save",
+    "addToFavorites": "Idagdag sa mga paborito",
+    "libraryBadge": "Mapagkakatiwalaang Aklatan ng Da'wah",
+    "libraryStats": "Estadistika ng Aklatan",
+    "visitChannel": "Bisitahin ang Channel",
+    "noResults": "Walang video na tumutugma sa iyong paghahanap.",
+    "channelChip": "Channel: {channel}",
+    "sheikhChip": "Sheikh: {sheikh}",
+    "playAria": "I-play ang video: {title}",
+    "thumbnailAlt": "Thumbnail ng video: {title}",
+    "langArabic": "Arabe",
+    "langEnglish": "Ingles",
+    "categories": {
+      "aqeedah": "Aqeedah",
+      "fiqh": "Fiqh",
+      "seerah": "Seerah",
+      "dawah": "Dawah",
+      "tazkiyah": "Tazkiyah"
+    }
+  },
+  "common": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "loading": "Naglo-load...",
+    "error": "Nagkaroon ng error",
+    "retry": "Subukang Muli",
+    "back": "Bumalik",
+    "backToSite": "Bumalik sa Site",
+    "admin": "Administrator",
+    "dashboard": "Dashboard",
+    "all": "Lahat",
+    "comingSoon": "Malapit Na",
+    "play": "I-play"
+  },
+  "admin": {
+    "title": "Admin ng As-Sirat Al-Mustaqeem",
+    "panel": "Control Panel",
+    "nav": {
+      "dashboard": "Dashboard",
+      "users": "Mga User",
+      "content": "Nilalaman",
+      "hadiths": "Mga Hadith",
+      "adhkar": "Adhkar",
+      "analytics": "Analytics",
+      "settings": "Mga Setting"
+    },
+    "backToSite": "Bumalik sa Site"
+  },
+  "asmaAllah": {
+    "searchPlaceholder": "Maghanap ng pangalan ni Allah...",
+    "resultsCount": "{count} sa 99 na pangalan",
+    "noResults": "Walang nakitang tugmang resulta",
+    "description": "Ang kumpletong 99 Magagandang Pangalan ni Allah na may kahulugan, paliwanag, at sanggunian sa Qur'an para sa bawat pangalan.",
+    "ayah": "﴿ وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَى فَادْعُوهُ بِهَا ﴾"
+  },
+  "prayerTimes": {
+    "cityLabel": "Lungsod",
+    "countryLabel": "Code ng Bansa",
+    "cityPlaceholder": "Manila",
+    "countryPlaceholder": "PH",
+    "searchBtn": "Maghanap",
+    "useMyLocation": "📍 Gamitin ang aking kasalukuyang lokasyon",
+    "loading": "Nilo-load ang oras ng pagdarasal...",
+    "errorFetch": "Hindi nakuha ang oras ng pagdarasal",
+    "errorConnection": "Hindi makakonekta sa serbisyo ng oras ng pagdarasal",
+    "errorLocation": "Hindi ma-access ang iyong lokasyon — maaari kang pumili ng lungsod nang mano-mano",
+    "yourLocation": "Ang iyong kasalukuyang lokasyon",
+    "nextPrayer": "Susunod na Pagdarasal",
+    "after": "Sa loob ng {time}",
+    "hoursAndMinutes": "{h} oras {m} min",
+    "minutesOnly": "{m} min",
+    "midnight": "Hatinggabi",
+    "prayers": {
+      "imsak": "Imsak",
+      "fajr": "Fajr",
+      "sunrise": "Pagsikat ng Araw",
+      "dhuhr": "Dhuhr",
+      "asr": "Asr",
+      "maghrib": "Maghrib",
+      "isha": "Isha"
+    },
+    "pageDescription": "Kumpletong oras ng pagdarasal para sa iyong lungsod o kasalukuyang lokasyon: Fajr, Pagsikat ng Araw, Dhuhr, Asr, Maghrib, at Isha."
+  },
+  "livePage": {
+    "title": "Live na Brodkast",
+    "subtitle": "Subaybayan nang live ang mga Islamikong TV at radyo, sa komportableng karanasang tugma sa pagkakakilanlan ng site.",
+    "tvTitle": "Mga Live na TV Channel",
+    "radioTitle": "Mga Islamikong Istasyon ng Radyo",
+    "radioPromo": "Hayaang samahan ka ng tinig ng Qur'an at Hadith ng Propeta saan ka man naroroon — live na radyo buong araw sa mataas na kalidad, isang pindot lang ang layo."
+  },
+  "scholarsPage": {
+    "title": "Mga Iskolar at Mangangaral",
+    "subtitle": "Isang mapagkakatiwalaang direktoryo ng mga iskolar, mangangaral, at opisyal na Islamikong institusyon, na naka-link lamang sa kanilang beripikadong opisyal na sanggunian.",
+    "categories": {
+      "saudi": "Mga Iskolar ng Saudi Arabia",
+      "international": "Mga Internasyonal na Mangangaral at Sheikh",
+      "organization": "Mga Opisyal na Islamikong Institusyon at Lupon"
+    },
+    "specialtyLabel": "Espesyalidad:",
+    "countryLabel": "Bansa:",
+    "links": {
+      "website": "Bisitahin ang Website",
+      "youtube": "YouTube",
+      "fatwa": "Mga Fatwa",
+      "lectures": "Mga Lektura",
+      "x": "X",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+    "photoAlt": "Larawan ni {name}, {specialty}"
+  },
+  "kidsPage": {
+    "title": "Seksyon ng mga Bata",
+    "subtitle": "Simple at masayang nilalaman para matuto ang mga bata tungkol sa Islam nang paunti-unti, may mga larawan at madaling paliwanag.",
+    "lessons": {
+      "wudu": {
+        "title": "Matuto ng Wudu",
+        "desc": "Ang mga hakbang ng wudu at kung bakit ito mahalaga"
+      },
+      "prayer": {
+        "title": "Matuto ng Pagdarasal",
+        "desc": "Ang mga pangunahing yugto at haligi ng pagdarasal"
+      },
+      "umrah": {
+        "title": "Matuto ng Umrah",
+        "desc": "Ang mga hakbang ng Umrah, sa simpleng paliwanag"
+      },
+      "hajj": {
+        "title": "Matuto ng Hajj",
+        "desc": "Ang mga banal na lugar at hakbang ng Hajj"
+      },
+      "learn": {
+        "title": "Islam para sa mga Bata",
+        "desc": "Ang mga batayan at haligi ng Islam"
+      }
+    }
+  },
+  "kidsLesson": {
+    "explanationTitle": "Simpleng Paliwanag",
+    "watchVideoTitle": "Panoorin ang Video",
+    "quizTitle": "Mabilis na Pagsusulit",
+    "answerLabel": "Sagot"
+  }
+}

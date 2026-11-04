@@ -1,4 +1,4 @@
-export const locales = ['ar', 'en', 'zh', 'es', 'fr', 'de', 'tr', 'ur', 'ru', 'hi'] as const
+export const locales = ['ar', 'en', 'zh', 'es', 'fr', 'de', 'tr', 'ur', 'ru', 'hi', 'id', 'fil'] as const
 export type Locale = (typeof locales)[number]
 
 export const defaultLocale: Locale = 'ar'
@@ -20,19 +20,26 @@ export const localeNames: Record<Locale, string> = {
   ur: 'اردو',
   ru: 'Русский',
   hi: 'हिन्दी',
+  id: 'Bahasa Indonesia',
+  fil: 'Filipino',
 }
 
+// ISO country code of each locale's flag, served as an SVG from public/images/flags/.
+// SVGs rather than flag emoji because Windows has no flag emoji glyphs: browsers there
+// show the bare letters ("SA", "PH") instead of a flag.
 export const localeFlags: Record<Locale, string> = {
-  ar: '🇸🇦',
-  en: '🇬🇧',
-  zh: '🇨🇳',
-  es: '🇪🇸',
-  fr: '🇫🇷',
-  de: '🇩🇪',
-  tr: '🇹🇷',
-  ur: '🇵🇰',
-  ru: '🇷🇺',
-  hi: '🇮🇳',
+  ar: 'sa',
+  en: 'gb',
+  zh: 'cn',
+  es: 'es',
+  fr: 'fr',
+  de: 'de',
+  tr: 'tr',
+  ur: 'pk',
+  ru: 'ru',
+  hi: 'in',
+  id: 'id',
+  fil: 'ph',
 }
 
 // Microsoft Edge Neural TTS voices per locale (male voices)
@@ -47,6 +54,8 @@ export const ttVoices: Record<Locale, string> = {
   ur: 'ur-PK-AsadNeural',
   ru: 'ru-RU-DmitryNeural',
   hi: 'hi-IN-MadhurNeural',
+  id: 'id-ID-ArdiNeural',
+  fil: 'fil-PH-AngeloNeural',
 }
 
 // BCP-47 tags for the browser's built-in Web Speech API (SpeechSynthesisUtterance.lang).
@@ -62,6 +71,8 @@ export const webSpeechLang: Record<Locale, string> = {
   ur: 'ur-PK',
   ru: 'ru-RU',
   hi: 'hi-IN',
+  id: 'id-ID',
+  fil: 'fil-PH',
 }
 
 // Single multilingual Edge Neural voice used for the homepage voice intro, so every

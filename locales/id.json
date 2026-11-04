@@ -1,0 +1,613 @@
+{
+  "meta": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "siteDesc": "Platform Islam lengkap untuk Al-Qur'an, Sunnah Nabi, dan ilmu-ilmu keislaman"
+  },
+  "nav": {
+    "home": "Beranda",
+    "quran": "Al-Qur'an",
+    "hadith": "Hadis",
+    "adhkar": "Zikir",
+    "prophets": "Para Nabi",
+    "live": "Langsung",
+    "scholars": "Ulama",
+    "kids": "Anak",
+    "islamicVideos": "Video Islami",
+    "library": "Perpustakaan",
+    "mainSection": "Utama",
+    "seerah": "Sirah",
+    "asmaAllah": "Nama-Nama Allah",
+    "prayerTimes": "Jadwal Salat",
+    "search": "Cari",
+    "toggleTheme": "Ganti Tema",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "language": "Bahasa"
+  },
+  "footer": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "siteDesc": "Platform Islam lengkap untuk Al-Qur'an, Sunnah Nabi, dan ilmu-ilmu keislaman",
+    "sections": {
+      "quranHadith": "Al-Qur'an & Hadis",
+      "adhkarDua": "Zikir & Doa",
+      "islamicSciences": "Ilmu-Ilmu Islam",
+      "services": "Layanan"
+    },
+    "links": {
+      "quran": "Al-Qur'an",
+      "tafsir": "Tafsir",
+      "bukhari": "Sahih Al-Bukhari",
+      "muslim": "Sahih Muslim",
+      "morningAdhkar": "Zikir Pagi",
+      "eveningAdhkar": "Zikir Petang",
+      "hisnMuslim": "Hisnul Muslim",
+      "travelAdhkar": "Zikir Safar",
+      "prophetsStories": "Kisah Para Nabi",
+      "seerah": "Sirah Nabawiyah",
+      "asmaAllah": "99 Nama Allah",
+      "prayerTimes": "Jadwal Salat",
+      "search": "Pencarian Lengkap",
+      "aiAssistant": "Asisten Islami"
+    },
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat & Ketentuan",
+    "contact": "Hubungi Kami",
+    "copyright": "Hak cipta dilindungi"
+  },
+  "home": {
+    "bismillah": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+    "title": "As-Sirat Al-Mustaqeem",
+    "subtitle": "Platform Islam lengkap untuk Al-Qur'an, Sunnah Nabi, dan ilmu-ilmu keislaman",
+    "ayah": "﴿ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴾",
+    "surahRef": "Surah Al-Fatihah — Ayat 6",
+    "btnQuran": "📖 Al-Qur'an",
+    "btnAdhkar": "📿 Zikir",
+    "btnAI": "🤖 Asisten AI",
+    "stats": {
+      "verses": "Ayat Al-Qur'an",
+      "hadiths": "Hadis",
+      "prophets": "Kisah Nabi",
+      "names": "Nama Allah"
+    },
+    "sectionTitle": "Bagian Situs",
+    "sectionDesc": "Semua yang dibutuhkan seorang Muslim di satu tempat",
+    "features": {
+      "quran": {
+        "title": "Al-Qur'an",
+        "desc": "Al-Qur'an lengkap dengan tafsir dan pencarian ayat",
+        "badge": "114 Surah"
+      },
+      "hadith": {
+        "title": "Hadis Nabi",
+        "desc": "Sahih Al-Bukhari, Muslim, dan kitab-kitab Sunan utama beserta klasifikasinya",
+        "badge": "6 Kitab"
+      },
+      "adhkar": {
+        "title": "Zikir & Doa",
+        "desc": "Hisnul Muslim lengkap — zikir pagi, petang, dan sebelum tidur",
+        "badge": "200+ Zikir"
+      },
+      "prophets": {
+        "title": "Kisah Para Nabi",
+        "desc": "Kisah semua nabi yang disebutkan dalam Al-Qur'an",
+        "badge": "25 Nabi"
+      },
+      "seerah": {
+        "title": "Sirah Nabawiyah",
+        "desc": "Kehidupan lengkap Nabi ﷺ — dari kelahiran hingga wafat",
+        "badge": "Lengkap"
+      },
+      "asmaAllah": {
+        "title": "99 Nama Allah",
+        "desc": "Penjelasan 99 nama beserta makna dan keutamaannya",
+        "badge": "99 Nama"
+      },
+      "prayerTimes": {
+        "title": "Jadwal Salat",
+        "desc": "Jadwal salat akurat untuk semua kota di dunia",
+        "badge": "Akurat"
+      },
+      "ai": {
+        "title": "Asisten Islami AI",
+        "desc": "Ajukan pertanyaan apa pun — jawaban dari Al-Qur'an dan Sunnah",
+        "badge": "AI"
+      }
+    },
+    "dailyAyah": "Ayat Hari Ini",
+    "dailyAyahRef": "Surah At-Talaq — Ayat 2-3",
+    "readFullSurah": "Baca surah lengkap",
+    "aiTitle": "Asisten Islami AI \"Al-Rashid\"",
+    "aiDesc": "Ajukan pertanyaan keislaman apa pun dan asisten akan menjawab dari Al-Qur'an dan Sunnah Nabi yang sahih",
+    "aiBtn": "Mulai Percakapan",
+    "servicesTitle": "Layanan Islami",
+    "servicesDesc": "Rangkaian layanan pilihan untuk kebutuhan keislaman Anda sehari-hari",
+    "services": {
+      "live": {
+        "title": "Siaran Langsung",
+        "desc": "Tonton saluran Islami secara langsung"
+      },
+      "scholars": {
+        "title": "Ulama",
+        "desc": "Kenali ulama dan dai tepercaya"
+      },
+      "kids": {
+        "title": "Pendidikan Anak",
+        "desc": "Pelajaran Islam yang sederhana dan ramah anak"
+      },
+      "hadith": {
+        "title": "Hadis",
+        "desc": "Hadis pilihan dengan fitur pencarian dan berbagi"
+      }
+    },
+    "featuresVideos": {
+      "title": "Video Islami",
+      "desc": "Ceramah tepercaya dari saluran Islam resmi"
+    },
+    "btnWatchVideos": "📺 Tonton Video",
+    "btnLiveMakkah": "📡 Langsung dari Makkah",
+    "journey": {
+      "title": "Mulai Perjalanan Anda",
+      "subtitle": "Panduan sederhana langkah demi langkah bagi siapa saja yang ingin mengenal Islam",
+      "steps": {
+        "islam": "Apa itu Islam?",
+        "allah": "Siapakah Allah?",
+        "prophet": "Siapakah Nabi Muhammad ﷺ?",
+        "quran": "Apa itu Al-Qur'an?",
+        "prayer": "Mengapa kita salat?",
+        "ramadan": "Ramadan",
+        "hajj": "Haji",
+        "live": "Tonton Makkah Langsung",
+        "ai": "Tanya AI"
+      }
+    },
+    "whyExplore": {
+      "title": "Mengapa Mengenal Islam",
+      "subtitle": "Nilai-nilai kemanusiaan universal di jantung ajaran Islam",
+      "values": {
+        "mercy": {
+          "title": "Kasih Sayang",
+          "desc": "Umat Islam memulai setiap perbuatan dengan nama Yang Maha Pengasih — rahmat adalah inti pandangan Islam terhadap seluruh ciptaan.",
+          "ref": "Surah Al-Anbiya — Ayat 107"
+        },
+        "justice": {
+          "title": "Keadilan",
+          "desc": "Islam memerintahkan keadilan bahkan kepada orang yang tidak kita sukai, dan mengaitkannya erat dengan ketakwaan.",
+          "ref": "Surah Al-Ma'idah — Ayat 8"
+        },
+        "compassion": {
+          "title": "Welas Asih",
+          "desc": "Nabi ﷺ menggambarkan orang-orang beriman sebagai satu tubuh dalam sikap saling mengasihi.",
+          "ref": "Muttafaq 'Alaih"
+        },
+        "knowledge": {
+          "title": "Ilmu",
+          "desc": "Wahyu Al-Qur'an yang pertama adalah perintah untuk membaca — menuntut ilmu adalah kewajiban setiap Muslim.",
+          "ref": "Surah Al-'Alaq — Ayat 1"
+        },
+        "family": {
+          "title": "Keluarga",
+          "desc": "Islam sangat menekankan bakti kepada orang tua dan menjaga hubungan kekeluargaan.",
+          "ref": "Surah Al-Isra — Ayat 23"
+        },
+        "hope": {
+          "title": "Harapan",
+          "desc": "Islam melarang berputus asa dari rahmat Allah, seberat apa pun kesulitan yang dihadapi.",
+          "ref": "Surah Az-Zumar — Ayat 53"
+        },
+        "peace": {
+          "title": "Perdamaian",
+          "desc": "Kata \"Islam\" sendiri seakar dengan kata \"damai\", dan umat Islam saling menyapa dengannya.",
+          "ref": "Surah An-Nisa — Ayat 94"
+        },
+        "honesty": {
+          "title": "Kejujuran",
+          "desc": "Nabi ﷺ mendorong kejujuran hingga mengantarkan seseorang ke derajat orang-orang yang tulus.",
+          "ref": "Muttafaq 'Alaih"
+        }
+      }
+    },
+    "meetProphet": {
+      "title": "Mengenal Nabi Muhammad ﷺ",
+      "subtitle": "Nabi terakhir, rahmat bagi seluruh alam, yang kepadanya Al-Qur'an diturunkan",
+      "cta": "Baca Selengkapnya"
+    },
+    "discoverQuran": {
+      "title": "Jelajahi Al-Qur'an",
+      "subtitle": "6.236 ayat di ujung jari Anda — baca, dengarkan, dan cari",
+      "tiles": {
+        "read": "Baca",
+        "listen": "Dengarkan",
+        "translations": "Terjemahan",
+        "randomVerse": "Ayat Acak",
+        "search": "Cari",
+        "continueReading": "Lanjutkan Membaca"
+      }
+    },
+    "fivePillarsSection": {
+      "title": "Rukun Islam",
+      "subtitle": "Landasan kehidupan seorang Muslim",
+      "pillars": {
+        "shahada": {
+          "name": "Syahadat",
+          "desc": "Bersaksi bahwa tiada tuhan selain Allah, dan Muhammad adalah utusan-Nya"
+        },
+        "salah": {
+          "name": "Salat",
+          "desc": "Lima salat harian yang menghubungkan orang beriman dengan Allah"
+        },
+        "zakat": {
+          "name": "Zakat",
+          "desc": "Memberikan sebagian harta kepada yang membutuhkan"
+        },
+        "sawm": {
+          "name": "Puasa",
+          "desc": "Berpuasa di bulan Ramadan untuk melatih diri dan meningkatkan ketakwaan"
+        },
+        "hajj": {
+          "name": "Haji",
+          "desc": "Berziarah ke Makkah sekali seumur hidup bagi yang mampu"
+        }
+      }
+    },
+    "worldStats": {
+      "title": "Islam di Seluruh Dunia",
+      "stats": {
+        "muslims": "Muslim di seluruh dunia",
+        "countries": "Negara berpenduduk mayoritas Muslim",
+        "religion": "Agama dengan pertumbuhan terbesar",
+        "history": "Tahun sejarah yang berkesinambungan"
+      }
+    },
+    "faqSection": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "subtitle": "Jawaban singkat atas pertanyaan paling umum tentang Islam"
+    },
+    "watchLearn": {
+      "title": "Tonton & Belajar",
+      "subtitle": "Ceramah hanya dari saluran Islam resmi yang terverifikasi",
+      "playAria": "Putar video: {title}",
+      "seeAll": "Lihat semua video"
+    },
+    "liveMakkah": {
+      "title": "Langsung dari Makkah & Madinah",
+      "subtitle": "Ikuti siaran resmi 24 jam dari Dua Masjid Suci",
+      "status": "Siaran langsung",
+      "seeAll": "Lihat semua saluran langsung"
+    },
+    "trustedScholarsSection": {
+      "title": "Ulama Tepercaya",
+      "subtitle": "Kenali ulama dan dai terverifikasi, yang terhubung hanya ke sumber resmi mereka",
+      "seeAll": "Lihat semua ulama"
+    },
+    "dailyInspiration": {
+      "title": "Inspirasi Harian",
+      "subtitle": "Satu ayat, satu hadis, dan satu doa — diperbarui setiap hari"
+    },
+    "todaysPicks": {
+      "featuredVideo": "Video Pilihan Hari Ini",
+      "featuredScholar": "Ulama Pilihan Hari Ini"
+    },
+    "finalCta": {
+      "title": "Lanjutkan Perjalanan Anda",
+      "subtitle": "Dari mana pun Anda memulai, situs ini siap menemani setiap langkah Anda selanjutnya",
+      "btnQuran": "📖 Baca Al-Qur'an",
+      "btnAI": "🤖 Tanya AI",
+      "btnVideos": "📺 Tonton Video",
+      "btnLearnMore": "🌟 Pelajari Lebih Lanjut"
+    },
+    "voiceIntro": {
+      "listen": "🔊 Dengarkan Pengantar",
+      "stop": "⏹ Berhenti",
+      "unavailable": "Narasi suara tidak tersedia di peramban Anda untuk bahasa ini.",
+      "text": "Assalamu'alaikum warahmatullahi wabarakatuh, dan selamat datang di As-Sirat Al-Mustaqeem.\n\nIslam adalah agama tauhid dan rahmat. Islam mengajak manusia untuk menyembah Allah Yang Maha Esa semata, dan dibangun di atas keadilan serta kasih sayang kepada seluruh makhluk. Allah mengutus Nabi Muhammad, semoga selawat dan salam tercurah kepada beliau, sebagai rahmat bagi seluruh alam.\n\nSitus ini menawarkan perjalanan lengkap melalui segala hal yang berkaitan dengan iman Anda, dari awal hingga akhir: Al-Qur'an lengkap dengan tafsir dan bacaannya, hadis-hadis sahih dari kitab-kitab tepercaya, kisah para nabi sebagaimana disebutkan dalam Al-Qur'an, sirah Nabi yang lengkap dari kelahiran hingga wafat, sembilan puluh sembilan nama Allah yang indah beserta makna dan keutamaannya, serta kumpulan lengkap zikir harian.\n\nAnda juga akan menemukan bagian tentang ulama dan dai tepercaya, perpustakaan video Islami yang bermanfaat, siaran langsung sepanjang waktu dari Dua Masjid Suci, jadwal salat yang akurat untuk kota Anda, bagian khusus untuk mengajarkan dasar-dasar agama kepada anak-anak dengan cara yang menarik, serta fitur pencarian untuk menemukan konten yang Anda cari dengan cepat.\n\nLuangkan waktu Anda, dan jelajahi apa pun yang menarik bagi Anda, tanpa tekanan dan tanpa terburu-buru. Pintu ini terbuka bagi siapa saja yang ingin belajar, bertanya, atau sekadar merenung.\n\nDan jika ada pertanyaan yang terlintas di benak Anda, asisten AI kami, Al-Rashid, siap menjawabnya dari Al-Qur'an dan Sunnah Nabi, kapan saja.\n\nKami berharap Anda menikmati perjalanan yang menyenangkan dan bermakna."
+    }
+  },
+  "quran": {
+    "title": "Al-Qur'an",
+    "subtitle": "Firman Allah yang diturunkan kepada Nabi Muhammad ﷺ — 114 Surah — 6.236 Ayat",
+    "searchPlaceholder": "Cari surah berdasarkan nama atau nomor...",
+    "resultsCount": "{count} hasil",
+    "noResults": "Tidak ada surah dengan nama ini",
+    "clearSearch": "Hapus Pencarian",
+    "surahsLabel": "Surah",
+    "versesLabel": "Ayat",
+    "ajzaLabel": "Juz",
+    "ayahsCount": "ayat",
+    "meccan": "Makkiyah",
+    "medinan": "Madaniyah",
+    "backToList": "Kembali ke Daftar Surah",
+    "copy": "Salin",
+    "showTranslation": "Tampilkan Terjemahan",
+    "modeList": "Ayat per Ayat",
+    "modeReading": "Teks Mengalir",
+    "page": "Halaman",
+    "copied": "Tersalin",
+    "prevSurah": "Surah Sebelumnya",
+    "juz": "Juz",
+    "nextSurah": "Surah Berikutnya",
+    "referenceTitle": "Referensi Al-Qur'an",
+    "referenceDesc": "Referensi eksternal ini memungkinkan Anda membaca Al-Qur'an dengan rasm Utsmani, mendengarkan bacaan, membaca tafsir, mencari ayat, dan menelusuri surah dengan mudah.\nSitus ini tidak menampilkan isi referensi tersebut — hanya menyediakan akses cepat ke sana.",
+    "referenceLinkBtn": "Buka Referensi Al-Qur'an",
+    "referenceFeatures": {
+      "read": {
+        "title": "📖 Baca Al-Qur'an",
+        "desc": "Langsung membaca Al-Qur'an dengan rasm Utsmani yang jelas."
+      },
+      "listen": {
+        "title": "🎧 Dengarkan Bacaan",
+        "desc": "Dengarkan bacaan dari sumber tepercaya di referensi eksternal."
+      },
+      "tafsir": {
+        "title": "📚 Tafsir Al-Qur'an",
+        "desc": "Telusuri berbagai tafsir ayat dengan mudah."
+      },
+      "search": {
+        "title": "🔍 Cari di Al-Qur'an",
+        "desc": "Cari ayat dan surah dengan cepat dan akurat."
+      },
+      "browse": {
+        "title": "⭐ Telusuri Semua Surah",
+        "desc": "Telusuri daftar lengkap surah dengan mudah."
+      }
+    },
+    "referenceNote": "Referensi akan terbuka di jendela baru agar Anda dapat menggunakan semua layanannya dan kembali ke situs kami dengan mudah."
+  },
+  "hadith": {
+    "title": "Hadis-Hadis Nabi yang Mulia",
+    "subtitle": "قَالَ رَسُولُ اللَّهِ ﷺ",
+    "booksTitle": "Kitab Hadis",
+    "selectedTitle": "Hadis Pilihan",
+    "hadithsUnit": "hadis",
+    "narrator": "Diriwayatkan oleh",
+    "grades": {
+      "SAHIH": "Sahih",
+      "HASAN": "Hasan",
+      "DAIF": "Daif",
+      "MAWDU": "Maudu"
+    },
+    "heroDesc": "Kumpulan pilihan hadis sahih dan hasan dari Al-Arba'in An-Nawawiyah dan Riyadhus Shalihin, yang diklasifikasikan menurut topik dan derajatnya.",
+    "dorarTitle": "Cari di Ensiklopedia Dorar As-Saniyyah",
+    "dorarDesc": "Cari jutaan hadis dan topik langsung dari situs Dorar As-Saniyyah, dengan tautan cepat ke pencarian dan ensiklopedia khusus.",
+    "dorarPlaceholder": "Ketik kata kunci lalu tekan cari",
+    "dorarSearchBtn": "Cari",
+    "visitDorar": "Kunjungi Ensiklopedia Dorar As-Saniyyah",
+    "servicesTitle": "Layanan Dorar As-Saniyyah",
+    "servicesDesc": "Tautan cepat ke ensiklopedia utama Dorar As-Saniyyah agar Anda dapat langsung menuju kitab dan layanan yang dicari.",
+    "serviceOpenDesc": "Membuka bagian terkait di situs Dorar As-Saniyyah.",
+    "services": {
+      "encyclopedia": "Ensiklopedia Hadis",
+      "adhkar": "Zikir",
+      "duas": "Doa",
+      "scientific": "Ensiklopedia Ilmiah",
+      "fiqh": "Ensiklopedia Fikih"
+    },
+    "filterPlaceholder": "Cari hadis, perawi, atau topik",
+    "categoriesLabel": "Kategori:",
+    "shareTitle": "Hadis Islami",
+    "copyHadithBtn": "Salin Hadis",
+    "shareHadithBtn": "Bagikan Hadis"
+  },
+  "adhkar": {
+    "title": "Zikir & Doa",
+    "subtitle": "Hisnul Muslim — Zikir yang diriwayatkan dari Nabi ﷺ",
+    "source": "Sumber",
+    "of": "dari",
+    "categories": {
+      "MORNING": "Zikir Pagi",
+      "EVENING": "Zikir Petang",
+      "SLEEP": "Zikir Sebelum Tidur",
+      "WAKE_UP": "Zikir Bangun Tidur",
+      "PRAYER": "Zikir Salat",
+      "TRAVEL": "Zikir Safar",
+      "FOOD": "Zikir Makan",
+      "GENERAL": "Zikir Umum"
+    },
+    "searchPlaceholder": "Cari zikir dan doa...",
+    "noResults": "Tidak ada hasil yang cocok"
+  },
+  "prophets": {
+    "title": "Kisah Para Nabi & Rasul",
+    "ayah": "﴿ وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ أَنبَاءِ الرُّسُلِ ﴾",
+    "inQuran": "× dalam Al-Qur'an",
+    "backToList": "← Kembali ke daftar Nabi",
+    "storyTitle": "Kisah",
+    "lessonsTitle": "Pelajaran & Renungan",
+    "referencesTitle": "Penyebutan dalam Al-Qur'an"
+  },
+  "seerah": {
+    "title": "Sirah Nabawiyah",
+    "subtitle": "Muhammad, Utusan Allah ﷺ",
+    "period": "570 M — 632 M | 23 tahun kenabian",
+    "age": "tahun usia beliau ﷺ",
+    "prophethood": "tahun kenabian",
+    "battles": "pertempuran",
+    "closingAyahRef": "Surah Al-Ahzab — Ayat 21",
+    "closingAyah": "﴿ لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ ﴾"
+  },
+  "ai": {
+    "title": "Al-Rashid",
+    "subtitle": "Asisten Islami AI — Jawaban dari Al-Qur'an dan Sunnah",
+    "online": "Sedang Aktif",
+    "soundOn": "Suara Aktif",
+    "soundOff": "Suara Mati",
+    "serverTTS": "Suara Neural",
+    "browserTTS": "Peramban",
+    "stop": "Berhenti",
+    "listen": "🔊 Dengarkan",
+    "placeholder": "Ketik pertanyaan keislaman Anda di sini...",
+    "disclaimer": "Asisten menjawab berdasarkan Al-Qur'an dan Sunnah Nabi — selalu periksa kembali sumbernya",
+    "greeting": "Assalamu'alaikum 🌙\n\nSaya \"Al-Rashid\", asisten Islami AI Anda. Saya menjawab pertanyaan Anda dari Al-Qur'an dan Sunnah Nabi yang sahih.\n\nApa yang bisa saya bantu hari ini?",
+    "errorGeneral": "Maaf, terjadi kesalahan. Silakan coba lagi.",
+    "errorConnection": "Maaf, terjadi kesalahan koneksi. Pastikan kunci API sudah dikonfigurasi.",
+    "userAvatar": "A",
+    "quickQuestions": [
+      "Apa saja Rukun Islam?",
+      "Apa keutamaan membaca Al-Qur'an?",
+      "Apa saja Rukun Iman?",
+      "Jelaskan makna tauhid",
+      "Apa hukum salat dalam Islam?",
+      "Apa keutamaan istigfar?"
+    ]
+  },
+  "videos": {
+    "title": "📺 Video Islami",
+    "subtitle": "Referensi Islam profesional yang menampilkan ceramah, kajian, dan klip dakwah tepercaya dari para ulama dan dai ternama, agar Anda dapat belajar dan kembali kepada kebenaran dengan yakin.",
+    "quickSearch": "Pencarian cepat dan efektif",
+    "searchPlaceholder": "Cari video berdasarkan judul, saluran, pembicara, atau kategori",
+    "categoryFilter": "Kategori",
+    "channelAndSpeaker": "Saluran & Pembicara",
+    "statsAvailable": "Video tersedia",
+    "statsFeatured": "Konten unggulan",
+    "statsFeaturedDesc": "Pilihan tepercaya",
+    "discover": "Kenali Islam",
+    "discoverDesc": "Jika Anda ingin mengenal Islam dan risalah Nabi Muhammad ﷺ, di sini Anda akan menemukan pilihan video pengantar dengan informasi yang tepercaya dan jelas.",
+    "sectionDesc": "Kumpulan video pilihan yang berkaitan dengan bidang keislaman ini.",
+    "referenceTitle": "Referensi Islam Profesional",
+    "referenceDesc": "Semua video disajikan sebagai tautan YouTube resmi dengan dukungan pencarian, penyaringan, favorit, dan berbagi, dengan tetap menjaga identitas visual dan kualitas keilmuan situs.",
+    "watchNow": "Tonton sekarang",
+    "share": "Bagikan",
+    "copyLink": "Salin tautan",
+    "saved": "Tersimpan",
+    "addToFavorites": "Tambahkan ke favorit",
+    "libraryBadge": "Perpustakaan Dakwah Tepercaya",
+    "libraryStats": "Statistik Perpustakaan",
+    "visitChannel": "Kunjungi Saluran",
+    "noResults": "Tidak ada video yang cocok dengan pencarian Anda.",
+    "channelChip": "Saluran: {channel}",
+    "sheikhChip": "Syekh: {sheikh}",
+    "playAria": "Putar video: {title}",
+    "thumbnailAlt": "Gambar mini video: {title}",
+    "langArabic": "Arab",
+    "langEnglish": "Inggris",
+    "categories": {
+      "aqeedah": "Akidah",
+      "fiqh": "Fikih",
+      "seerah": "Sirah",
+      "dawah": "Dakwah",
+      "tazkiyah": "Tazkiyah"
+    }
+  },
+  "common": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "retry": "Coba Lagi",
+    "back": "Kembali",
+    "backToSite": "Kembali ke Situs",
+    "admin": "Administrator",
+    "dashboard": "Dasbor",
+    "all": "Semua",
+    "comingSoon": "Segera Hadir",
+    "play": "Putar"
+  },
+  "admin": {
+    "title": "Admin As-Sirat Al-Mustaqeem",
+    "panel": "Panel Kontrol",
+    "nav": {
+      "dashboard": "Dasbor",
+      "users": "Pengguna",
+      "content": "Konten",
+      "hadiths": "Hadis",
+      "adhkar": "Zikir",
+      "analytics": "Analitik",
+      "settings": "Pengaturan"
+    },
+    "backToSite": "Kembali ke Situs"
+  },
+  "asmaAllah": {
+    "searchPlaceholder": "Cari nama Allah...",
+    "resultsCount": "{count} dari 99 nama",
+    "noResults": "Tidak ada hasil yang cocok",
+    "description": "99 Nama Allah yang indah secara lengkap, dengan makna, penjelasan, dan rujukan Al-Qur'an untuk setiap nama.",
+    "ayah": "﴿ وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَى فَادْعُوهُ بِهَا ﴾"
+  },
+  "prayerTimes": {
+    "cityLabel": "Kota",
+    "countryLabel": "Kode Negara",
+    "cityPlaceholder": "Jakarta",
+    "countryPlaceholder": "ID",
+    "searchBtn": "Cari",
+    "useMyLocation": "📍 Gunakan lokasi saya saat ini",
+    "loading": "Memuat jadwal salat...",
+    "errorFetch": "Gagal mengambil jadwal salat",
+    "errorConnection": "Gagal terhubung ke layanan jadwal salat",
+    "errorLocation": "Tidak dapat mengakses lokasi Anda — Anda dapat memilih kota secara manual",
+    "yourLocation": "Lokasi Anda saat ini",
+    "nextPrayer": "Salat Berikutnya",
+    "after": "Dalam {time}",
+    "hoursAndMinutes": "{h} jam {m} menit",
+    "minutesOnly": "{m} menit",
+    "midnight": "Tengah Malam",
+    "prayers": {
+      "imsak": "Imsak",
+      "fajr": "Subuh",
+      "sunrise": "Terbit",
+      "dhuhr": "Zuhur",
+      "asr": "Asar",
+      "maghrib": "Magrib",
+      "isha": "Isya"
+    },
+    "pageDescription": "Jadwal salat lengkap untuk kota atau lokasi Anda saat ini: Subuh, Terbit, Zuhur, Asar, Magrib, dan Isya."
+  },
+  "livePage": {
+    "title": "Siaran Langsung",
+    "subtitle": "Ikuti saluran TV dan radio Islam secara langsung, dengan pengalaman nyaman yang sesuai dengan identitas situs.",
+    "tvTitle": "Saluran TV Langsung",
+    "radioTitle": "Stasiun Radio Islam",
+    "radioPromo": "Biarkan suara Al-Qur'an dan Hadis Nabi menemani Anda di mana pun berada — siaran radio langsung sepanjang waktu dengan kualitas tinggi, cukup dengan satu ketukan."
+  },
+  "scholarsPage": {
+    "title": "Ulama & Dai",
+    "subtitle": "Direktori tepercaya para ulama, dai, dan lembaga Islam resmi, yang hanya menautkan ke sumber resmi mereka yang terverifikasi.",
+    "categories": {
+      "saudi": "Ulama Arab Saudi",
+      "international": "Dai & Syekh Internasional",
+      "organization": "Lembaga & Badan Islam Resmi"
+    },
+    "specialtyLabel": "Keahlian:",
+    "countryLabel": "Negara:",
+    "links": {
+      "website": "Kunjungi Situs",
+      "youtube": "YouTube",
+      "fatwa": "Fatwa",
+      "lectures": "Ceramah",
+      "x": "X",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+    "photoAlt": "Foto {name}, {specialty}"
+  },
+  "kidsPage": {
+    "title": "Bagian Anak-Anak",
+    "subtitle": "Konten sederhana dan menyenangkan agar anak-anak mengenal Islam langkah demi langkah, dengan gambar dan penjelasan yang mudah.",
+    "lessons": {
+      "wudu": {
+        "title": "Belajar Wudu",
+        "desc": "Langkah-langkah wudu dan mengapa wudu penting"
+      },
+      "prayer": {
+        "title": "Belajar Salat",
+        "desc": "Tahapan dan rukun dasar salat"
+      },
+      "umrah": {
+        "title": "Belajar Umrah",
+        "desc": "Langkah-langkah umrah dengan penjelasan sederhana"
+      },
+      "hajj": {
+        "title": "Belajar Haji",
+        "desc": "Tempat-tempat suci dan langkah-langkah haji"
+      },
+      "learn": {
+        "title": "Islam untuk Anak",
+        "desc": "Dasar-dasar dan rukun Islam"
+      }
+    }
+  },
+  "kidsLesson": {
+    "explanationTitle": "Penjelasan Sederhana",
+    "watchVideoTitle": "Tonton Videonya",
+    "quizTitle": "Kuis Singkat",
+    "answerLabel": "Jawaban"
+  }
+}

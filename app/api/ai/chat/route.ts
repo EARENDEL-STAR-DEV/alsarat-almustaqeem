@@ -59,6 +59,16 @@ const MESSAGES: Record<string, { intro: string; noAnswer: string; badRequest: st
     noAnswer: 'Я не нашёл прямого ответа на это в содержимом сайта. Попробуйте переформулировать вопрос, или обратитесь к надёжному учёному, или посетите такие сайты, как islamweb.net или dorar.net.',
     badRequest: 'Сначала введите вопрос.',
   },
+  id: {
+    intro: 'Inilah yang saya temukan di situs ini terkait pertanyaan Anda:',
+    noAnswer: 'Saya tidak menemukan jawaban langsung untuk hal ini dalam konten situs. Coba ubah susunan pertanyaan Anda, atau tanyakan kepada ulama tepercaya, atau lihat situs seperti islamweb.net atau dorar.net.',
+    badRequest: 'Silakan tulis pertanyaan terlebih dahulu.',
+  },
+  fil: {
+    intro: 'Narito ang nakita ko sa site kaugnay ng iyong tanong:',
+    noAnswer: 'Wala akong nakitang tuwirang sagot dito sa nilalaman ng site. Subukang ibahin ang pagkakatanong, o sumangguni sa mapagkakatiwalaang iskolar, o tingnan ang site gaya ng islamweb.net o dorar.net.',
+    badRequest: 'Mangyaring mag-type muna ng tanong.',
+  },
 }
 
 function messagesFor(language: string) {

@@ -6,6 +6,19 @@ import { useState, useRef, useEffect } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { locales, localeNames, localeFlags, type Locale } from '@/i18n/config'
 
+function Flag({ locale }: { locale: Locale }) {
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={`/images/flags/${localeFlags[locale]}.svg`}
+      alt=""
+      width={20}
+      height={15}
+      className="w-5 h-[15px] shrink-0 rounded-[2px] object-cover"
+    />
+  )
+}
+
 export function LanguageSwitcher() {
   const locale = useLocale() as Locale
   const t = useTranslations('nav')
@@ -47,13 +60,13 @@ export function LanguageSwitcher() {
         className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-gray-300 hover:text-gold-300 hover:bg-white/5 transition-colors text-sm"
         aria-label={t('language')}
       >
-        <span className="text-base leading-none">{localeFlags[locale]}</span>
-        <span className="hidden sm:block text-xs font-medium">{localeNames[locale]}</span>
+        <Flag locale={locale} />
+        <span className="hidden sm:block text-xs font-medium whitespace-nowrap">{localeNames[locale]}</span>
         <ChevronDown size={13} className={`transition-transform duration-200 ${open ? 'rotate-180' : ''}`} />
       </button>
 
       {open && (
-        <div className="absolute top-full mt-1 end-0 w-44 bg-islamic-navy border border-gold-400/20 rounded-xl shadow-xl shadow-black/40 py-1 z-50 overflow-hidden">
+        <div className="absolute top-full mt-1 end-0 w-52 max-h-[70vh] overflow-y-auto bg-islamic-navy border border-gold-400/20 rounded-xl shadow-xl shadow-black/40 py-1 z-50">
           {locales.map(l => (
             <button
               key={l}
@@ -64,8 +77,8 @@ export function LanguageSwitcher() {
                   : 'text-gray-300 hover:bg-white/5 hover:text-gold-300'
               }`}
             >
-              <span className="text-base">{localeFlags[l]}</span>
-              <span>{localeNames[l]}</span>
+              <Flag locale={l} />
+              <span className="whitespace-nowrap">{localeNames[l]}</span>
               {l === locale && (
                 <span className="ms-auto text-gold-400">✓</span>
               )}

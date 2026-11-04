@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
+import { webSpeechLang, type Locale } from '@/i18n/config'
 
 interface Message {
   id: string
@@ -108,7 +109,7 @@ export default function AIPage() {
     }
     // Browser fallback
     const utter = new SpeechSynthesisUtterance(text)
-    utter.lang = locale === 'ar' ? 'ar-SA' : locale === 'ur' ? 'ur-PK' : locale === 'zh' ? 'zh-CN' : locale
+    utter.lang = webSpeechLang[locale as Locale] ?? locale
     utter.onend = () => setSpeaking(null)
     speechSynthesis.speak(utter)
   }

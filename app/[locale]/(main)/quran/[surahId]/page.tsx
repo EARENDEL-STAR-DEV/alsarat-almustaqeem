@@ -41,7 +41,7 @@ async function fetchSurah(id: number): Promise<SurahData | null> {
 // Translations are pre-downloaded locally (see scripts/download-quran-translations.js)
 // rather than fetched live, so each static surah page reads only its own small
 // per-surah file at build time instead of pulling the whole Quran over the network.
-const TRANSLATED_LOCALES = new Set(['en', 'fr', 'de', 'tr', 'ru', 'es', 'zh', 'ur', 'hi'])
+const TRANSLATED_LOCALES = new Set(['en', 'fr', 'de', 'tr', 'ru', 'es', 'zh', 'ur', 'hi', 'id', 'fil'])
 
 function getTranslation(id: number, lang: string): Record<number, string> {
   if (!TRANSLATED_LOCALES.has(lang)) return {}
