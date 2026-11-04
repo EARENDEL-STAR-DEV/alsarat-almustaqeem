@@ -20,9 +20,9 @@ export default function AIPage() {
   const [loading, setLoading] = useState(false)
   const [soundEnabled, setSoundEnabled] = useState(true)
   const [speaking, setSpeaking] = useState<string | null>(null)
-  const [ttsMode, setTtsMode] = useState<'server' | 'browser'>('server')
   const messagesRef = useRef<HTMLDivElement>(null)
   const audioRef = useRef<HTMLAudioElement>(null)
+  const speakRequestRef = useRef(0)
 
   // Init greeting
   useEffect(() => {
@@ -87,34 +87,34 @@ export default function AIPage() {
 
   async function speakText(msgId: string, text: string) {
     setSpeaking(msgId)
-    if (ttsMode === 'server') {
+    const requestId = ++speakRequestRef.current
+    const audio = audioRef.current
+    if (audio) {
+      // Pausing rejects the pending play() below, which falls through to the browser voice.
+      const watchdog = setTimeout(() => audio.pause(), 25000)
       try {
-        const res = await fetch('/api/ai/speak', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ text: text.slice(0, 500), lang: locale }),
-        })
-        if (!res.ok) throw new Error()
-        const blob = await res.blob()
-        const url = URL.createObjectURL(blob)
-        if (audioRef.current) {
-          audioRef.current.src = url
-          audioRef.current.onended = () => { setSpeaking(null); URL.revokeObjectURL(url) }
-          await audioRef.current.play()
-        }
+        // The server streams the audio, so playback starts before synthesis has finished.
+        const params = new URLSearchParams({ text: text.slice(0, 500), lang: locale })
+        audio.src = `/api/ai/speak?${params}`
+        audio.onended = () => setSpeaking(null)
+        await audio.play()
         return
       } catch {
-        setTtsMode('browser')
+        if (requestId !== speakRequestRef.current) return
+      } finally {
+        clearTimeout(watchdog)
       }
     }
     // Browser fallback
     const utter = new SpeechSynthesisUtterance(text)
     utter.lang = webSpeechLang[locale as Locale] ?? locale
     utter.onend = () => setSpeaking(null)
+    utter.onerror = () => setSpeaking(null)
     speechSynthesis.speak(utter)
   }
 
   function stopSpeaking() {
+    speakRequestRef.current += 1 // so the pending play() doesn't fall back to the browser voice
     audioRef.current?.pause()
     speechSynthesis.cancel()
     setSpeaking(null)

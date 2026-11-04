@@ -13,7 +13,8 @@
     "db:seed": "tsx prisma/seed.ts",
     "db:studio": "prisma studio",
     "seed:quran": "tsx prisma/seed-quran.ts",
-    "download:quran-translations": "node scripts/download-quran-translations.js"
+    "download:quran-translations": "node scripts/download-quran-translations.js",
+    "generate:voice-intro": "tsx scripts/generate-voice-intro.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",
