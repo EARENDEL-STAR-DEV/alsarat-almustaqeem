@@ -7,6 +7,10 @@ import { LIVE_CHANNELS } from '@/data/liveChannels'
 import { HADITHS } from '@/data/hadiths'
 import { ADHKAR_CATEGORIES } from '@/data/adhkar'
 import { homeFaq } from '@/data/homeFaq'
+import fs from 'fs'
+import path from 'path'
+import { locales, type Locale } from '@/i18n/config'
+import { matchTopic, normalizeQuery, type TopicPick } from '@/lib/assistantTopics'
 
 // No LLM, no API key, no external inference server: this endpoint answers purely by
 // keyword-matching the user's question against the site's own local content and
@@ -397,6 +401,152 @@ async function searchQuran(query: string): Promise<CategoryResult | null> {
   }
 }
 
+// ───────────────────── Topic answers (every language) ─────────────────────
+// Questions are first matched against the multilingual glossary in lib/assistantTopics,
+// which points at hand-picked site content. Section headings and source notes reuse the
+// site's own translated UI strings, Quran verses come with the reader's translation, and
+// FAQ answers use the English version outside Arabic (as the homepage FAQ does).
+
+type SiteMessages = typeof import('@/locales/en.json')
+
+async function siteMessages(language: string): Promise<SiteMessages> {
+  const locale = ((locales as readonly string[]).includes(language) ? language : 'en') as Locale
+  return (await import(`@/locales/${locale}.json`)).default as SiteMessages
+}
+
+async function arabicAyah(surah: number, ayah: number): Promise<string | null> {
+  try {
+    const res = await fetch(`https://api.alquran.cloud/v1/ayah/${surah}:${ayah}/quran-uthmani`, {
+      next: { revalidate: 86400 },
+      signal: AbortSignal.timeout(5000),
+    })
+    const data = await res.json()
+    return data.code === 200 ? (data.data.text as string) : null
+  } catch {
+    return null
+  }
+}
+
+function translatedAyah(language: string, surah: number, ayah: number): string | null {
+  if (language === 'ar') return null
+  try {
+    const file = path.join(process.cwd(), 'data', 'quran-translations', language, `${surah}.json`)
+    const parsed = JSON.parse(fs.readFileSync(file, 'utf8')) as { ayahs: Record<string, string> }
+    return parsed.ayahs[String(ayah)] ?? null
+  } catch {
+    return null
+  }
+}
+
+type Section = { label: string; block: string }
+
+async function renderPick(pick: TopicPick, language: string, m: SiteMessages): Promise<Section | null> {
+  const ar = language === 'ar'
+  if ('faq' in pick) {
+    const f = homeFaq.find((x) => x.id === pick.faq)
+    if (!f) return null
+    return { label: m.home.faqSection.title, block: ar ? `${f.questionAr}\n${f.answerAr}` : `${f.questionEn}\n${f.answerEn}` }
+  }
+  if ('quran' in pick) {
+    const [surah, ayah] = pick.quran
+    const [arabic, translation] = [await arabicAyah(surah, ayah), translatedAyah(language, surah, ayah)]
+    if (!arabic && !translation) return null
+    const lines = [arabic && `﴿${arabic}﴾`, translation, `(${surah}:${ayah})`].filter(Boolean)
+    return { label: m.footer.links.quran, block: lines.join('\n') }
+  }
+  if ('hadith' in pick) {
+    const h = HADITHS.find((x) => x.id === pick.hadith)
+    if (!h) return null
+    const grade = m.hadith.grades[h.grade as keyof SiteMessages['hadith']['grades']] ?? h.grade
+    return { label: m.nav.hadith, block: `"${h.text}"\n[${m.adhkar.source}: ${h.source} — ${grade}]` }
+  }
+  if ('adhkar' in pick) {
+    const cat = ADHKAR_CATEGORIES.find((c) => c.key === pick.adhkar)
+    if (!cat) return null
+    const items = cat.items.slice(0, 2).map((i) => i.text).join('\n\n')
+    return { label: m.footer.sections.adhkarDua, block: `[${cat.title}]\n${items}` }
+  }
+  if ('prophet' in pick) {
+    const p = PROPHETS.find((x) => x.id === pick.prophet)
+    if (!p) return null
+    return { label: m.footer.links.prophetsStories, block: `${ar ? p.nameAr : `${p.nameEn} — ${p.nameAr}`}\n${p.summary}` }
+  }
+  if ('asma' in pick) {
+    const names = ASMA_ALLAH.filter((n) => pick.asma.includes(n.number))
+    return { label: m.footer.links.asmaAllah, block: names.map((n) => `${n.number}. ${n.nameArabic} (${n.nameEnglish}) — ${n.meaning}`).join('\n') }
+  }
+  if ('seerah' in pick) {
+    const events = SEERAH_TIMELINE.flatMap((era) => era.events).filter((e) => e.title.includes(pick.seerah)).slice(0, 2)
+    if (!events.length) return null
+    return { label: m.footer.links.seerah, block: events.map((e) => `${e.year} — ${e.title}\n${e.desc}`).join('\n\n') }
+  }
+  if ('live' in pick) {
+    const c = LIVE_CHANNELS.find((x) => x.id === pick.live)
+    if (!c) return null
+    return { label: m.nav.live, block: ar ? `${c.nameAr}\n${c.descriptionAr}` : `${c.nameEn}\n${c.descriptionEn}` }
+  }
+  return null
+}
+
+function formatSections(intro: string, sections: Section[]): string {
+  // Consecutive picks from the same part of the site share one heading.
+  const merged: Section[] = []
+  for (const s of sections) {
+    const last = merged[merged.length - 1]
+    if (last && last.label === s.label) last.block += `\n\n${s.block}`
+    else merged.push({ ...s })
+  }
+  return `${intro}\n\n${merged.map((s) => `${s.label}:\n${s.block}`).join('\n\n---\n\n')}`
+}
+
+// Words too common in the site's English names (organizations, channels) to identify
+// anything on their own.
+const GENERIC_NAME_WORDS = new Set([
+  'islam', 'islamic', 'quran', 'holy', 'saudi', 'arabia', 'council', 'ministry', 'international',
+  'radio', 'channel', 'sheikh', 'shaykh', 'affairs', 'religious', 'mosque', 'mosques', 'senior',
+  'scholars', 'scholar', 'committee', 'research', 'general', 'world', 'league', 'question', 'answer',
+  'with', 'from', 'that', 'what', 'about', 'allah',
+])
+
+// For questions that aren't in Arabic and match no topic, the only content that can be
+// recognised is names written in Latin letters (prophets, scholars, channels, names of
+// Allah). They're matched as whole words, never as parts of other words.
+function searchNames(query: string, language: string, m: SiteMessages): Section[] {
+  const queryWords = new Set(normalizeQuery(query).trim().split(' '))
+  const hits = (name: string) =>
+    normalizeQuery(name)
+      .trim()
+      .split(' ')
+      .some((w) => w.length >= 4 && !GENERIC_NAME_WORDS.has(w) && queryWords.has(w))
+  const sections: Section[] = []
+  for (const p of PROPHETS) if (hits(p.nameEn)) sections.push({ label: m.footer.links.prophetsStories, block: `${p.nameEn} — ${p.nameAr}\n${p.summary}` })
+  for (const s of SCHOLARS) if (hits(s.nameEn)) sections.push({ label: m.nav.scholars, block: `${s.nameEn} — ${s.country}\n${language === 'ar' ? s.aboutAr : s.aboutEn}` })
+  for (const c of LIVE_CHANNELS) if (hits(c.nameEn)) sections.push({ label: m.nav.live, block: `${c.nameEn}\n${c.descriptionEn}` })
+  for (const n of ASMA_ALLAH) if (hits(n.nameEnglish.replace(/-/g, ' '))) sections.push({ label: m.footer.links.asmaAllah, block: `${n.number}. ${n.nameArabic} (${n.nameEnglish}) — ${n.meaning}` })
+  return sections.slice(0, 3)
+}
+
+const ARABIC_SCRIPT = /[؀-ۿ]/
+
+async function answer(query: string, language: string): Promise<string> {
+  const msgs = messagesFor(language)
+  const m = await siteMessages(language)
+
+  const topic = matchTopic(query)
+  if (topic) {
+    const sections = (await Promise.all(topic.picks.map((p) => renderPick(p, language, m)))).filter(
+      (s): s is Section => s !== null,
+    )
+    if (sections.length) return formatSections(msgs.intro, sections)
+  }
+
+  // The keyword search below only works on Arabic text: the site's content is Arabic.
+  if (ARABIC_SCRIPT.test(query)) return retrieveTop(query, language)
+
+  const names = searchNames(query, language, m)
+  return names.length ? formatSections(msgs.intro, names) : msgs.noAnswer
+}
+
 async function retrieveTop(query: string, language: string): Promise<string> {
   const tokens = tokenize(query)
 
@@ -435,7 +585,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'message required' }, { status: 400 })
     }
 
-    const reply = await retrieveTop(message, language)
+    const reply = await answer(message, language)
     return NextResponse.json({ reply })
   } catch (error) {
     console.error('AI chat error:', error)
