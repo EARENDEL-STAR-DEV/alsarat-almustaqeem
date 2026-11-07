@@ -63,6 +63,11 @@ const MESSAGES: Record<string, { intro: string; noAnswer: string; badRequest: st
     noAnswer: 'Я не нашёл прямого ответа на это в содержимом сайта. Попробуйте переформулировать вопрос, или обратитесь к надёжному учёному, или посетите такие сайты, как islamweb.net или dorar.net.',
     badRequest: 'Сначала введите вопрос.',
   },
+  hi: {
+    intro: 'आपके सवाल से जुड़ा जो मुझे साइट पर मिला, वह यह है:',
+    noAnswer: 'मुझे साइट की सामग्री में इसका सीधा जवाब नहीं मिला। सवाल को दूसरे तरीके से पूछें, या किसी भरोसेमंद आलिम से पूछें, या islamweb.net या dorar.net जैसी साइट देखें।',
+    badRequest: 'कृपया पहले कोई सवाल लिखें।',
+  },
   id: {
     intro: 'Inilah yang saya temukan di situs ini terkait pertanyaan Anda:',
     noAnswer: 'Saya tidak menemukan jawaban langsung untuk hal ini dalam konten situs. Coba ubah susunan pertanyaan Anda, atau tanyakan kepada ulama tepercaya, atau lihat situs seperti islamweb.net atau dorar.net.',
@@ -476,7 +481,7 @@ async function renderPick(pick: TopicPick, language: string, m: SiteMessages): P
     return { label: m.footer.links.asmaAllah, block: names.map((n) => `${n.number}. ${n.nameArabic} (${n.nameEnglish}) — ${n.meaning}`).join('\n') }
   }
   if ('seerah' in pick) {
-    const events = SEERAH_TIMELINE.flatMap((era) => era.events).filter((e) => e.title.includes(pick.seerah)).slice(0, 2)
+    const events = SEERAH_TIMELINE.flatMap((era) => era.events).filter((e) => normalizeQuery(e.title).includes(normalizeQuery(pick.seerah).trim())).slice(0, 2)
     if (!events.length) return null
     return { label: m.footer.links.seerah, block: events.map((e) => `${e.year} — ${e.title}\n${e.desc}`).join('\n\n') }
   }
