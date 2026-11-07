@@ -23,7 +23,7 @@ const notoNaskh = Noto_Naskh_Arabic({
 })
 
 const inter = Inter({
-  subsets: ['latin', 'latin-ext', 'cyrillic'],
+  subsets: ['latin', 'latin-ext', 'cyrillic', 'vietnamese'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-inter',
   display: 'swap',

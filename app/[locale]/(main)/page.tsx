@@ -26,7 +26,7 @@ import { VoiceIntroButton } from '@/components/home/VoiceIntroButton'
 // itself) plus, for non-Arabic locales, the meaning underneath — pulled from the same
 // pre-downloaded per-language translation files the /quran pages already read from
 // (see app/[locale]/(main)/quran/[surahId]/page.tsx), so no new content is needed.
-const TRANSLATED_LOCALES = new Set(['en', 'fr', 'de', 'tr', 'ru', 'es', 'zh', 'ur', 'hi', 'id', 'fil'])
+const TRANSLATED_LOCALES = new Set(['en', 'fr', 'de', 'tr', 'ru', 'es', 'zh', 'ur', 'hi', 'id', 'fil', 'he', 'vi', 'ne', 'it', 'sv', 'fi'])
 
 function getFatihaMeaning(locale: string): { bismillah?: string; ayah6?: string } {
   if (!TRANSLATED_LOCALES.has(locale)) return {}

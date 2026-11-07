@@ -3,7 +3,8 @@
 // for lazy per-surah loading on the site. Re-run this if a translation edition changes
 // or a new language is added to i18n/config.ts.
 //
-// Filipino isn't on api.alquran.cloud, so it comes from quranenc.com (one request per surah).
+// Filipino and Vietnamese aren't on api.alquran.cloud, so they come from quranenc.com
+// (one request per surah); Hebrew, Nepali and Finnish come from fawazahmed0/quran-api.
 //
 // Usage: node scripts/download-quran-translations.js [lang ...]
 //   With no arguments every language is downloaded; otherwise only the ones listed.
@@ -22,10 +23,20 @@ const EDITIONS = {
   ur: 'ur.maududi',
   hi: 'hi.hindi',
   id: 'id.indonesian',
+  it: 'it.piccardo',
+  sv: 'sv.bernstrom',
 }
 
 const QURANENC_EDITIONS = {
   fil: 'tagalog_rwwad',
+  vi: 'vietnamese_rwwad',
+}
+
+// Languages that neither API above carries, from github.com/fawazahmed0/quran-api.
+const FAWAZ_EDITIONS = {
+  he: 'heb-darusalamhousei',
+  ne: 'nep-ahlalhadithcent',
+  fi: 'fin-unknown',
 }
 
 const OUT_DIR = path.join(__dirname, '..', 'data', 'quran-translations')
@@ -83,6 +94,18 @@ async function fetchQuranEncSurahs(edition) {
   return surahs
 }
 
+// The whole Quran in one file as a flat [{ chapter, verse, text }] list.
+async function fetchFawazSurahs(edition) {
+  const json = await fetchWithRetry(`https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/${edition}.min.json`)
+  const surahs = Array.from({ length: 114 }, (_, i) => ({ number: i + 1, ayahs: [] }))
+  for (const v of json.quran) {
+    surahs[v.chapter - 1].ayahs.push({ numberInSurah: v.verse, text: v.text.replace(/\s*\[\d+\]/g, '').trim() })
+  }
+  const total = surahs.reduce((n, s) => n + s.ayahs.length, 0)
+  if (total !== 6236) throw new Error(`${edition}: expected 6236 ayahs, got ${total}`)
+  return surahs
+}
+
 async function main() {
   const summary = []
   const requested = process.argv.slice(2)
@@ -92,6 +115,13 @@ async function main() {
     if (!selected(lang)) continue
     console.log(`Fetching ${lang} (${edition})...`)
     const surahs = await fetchQuranEncSurahs(edition)
+    summary.push(writeSurahs(lang, edition, surahs))
+  }
+
+  for (const [lang, edition] of Object.entries(FAWAZ_EDITIONS)) {
+    if (!selected(lang)) continue
+    console.log(`Fetching ${lang} (${edition})...`)
+    const surahs = await fetchFawazSurahs(edition)
     summary.push(writeSurahs(lang, edition, surahs))
   }
 

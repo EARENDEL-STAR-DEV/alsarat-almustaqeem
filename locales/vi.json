@@ -1,0 +1,613 @@
+{
+  "meta": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "siteDesc": "Nền tảng Hồi giáo toàn diện về Thiên Kinh Qur'an, Sunnah của Nabi và các môn khoa học Hồi giáo"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "quran": "Qur'an",
+    "hadith": "Hadith",
+    "adhkar": "Adhkar",
+    "prophets": "Các Nabi",
+    "live": "Trực tiếp",
+    "scholars": "Học giả",
+    "kids": "Trẻ em",
+    "islamicVideos": "Video",
+    "library": "Thư viện Hồi giáo",
+    "mainSection": "Chính",
+    "seerah": "Seerah",
+    "asmaAllah": "Tên Allah",
+    "prayerTimes": "Giờ Salah",
+    "search": "Tìm kiếm",
+    "toggleTheme": "Đổi giao diện",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu",
+    "language": "Ngôn ngữ"
+  },
+  "footer": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "siteDesc": "Nền tảng Hồi giáo toàn diện về Thiên Kinh Qur'an, Sunnah của Nabi và các môn khoa học Hồi giáo",
+    "sections": {
+      "quranHadith": "Qur'an & Hadith",
+      "adhkarDua": "Adhkar & Du'a",
+      "islamicSciences": "Khoa học Hồi giáo",
+      "services": "Dịch vụ"
+    },
+    "links": {
+      "quran": "Thiên Kinh Qur'an",
+      "tafsir": "Tafsir",
+      "bukhari": "Sahih al-Bukhari",
+      "muslim": "Sahih Muslim",
+      "morningAdhkar": "Adhkar buổi sáng",
+      "eveningAdhkar": "Adhkar buổi chiều",
+      "hisnMuslim": "Hisn al-Muslim",
+      "travelAdhkar": "Adhkar khi đi xa",
+      "prophetsStories": "Câu chuyện các Nabi",
+      "seerah": "Tiểu sử Nabi",
+      "asmaAllah": "99 Tên của Allah",
+      "prayerTimes": "Giờ Salah",
+      "search": "Tìm kiếm toàn diện",
+      "aiAssistant": "Trợ lý Hồi giáo"
+    },
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản & Điều kiện",
+    "contact": "Liên hệ",
+    "copyright": "Bảo lưu mọi quyền"
+  },
+  "home": {
+    "bismillah": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+    "title": "As-Sirat Al-Mustaqeem",
+    "subtitle": "Nền tảng Hồi giáo toàn diện về Thiên Kinh Qur'an, Sunnah của Nabi và các môn khoa học Hồi giáo",
+    "ayah": "﴿ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴾",
+    "surahRef": "Surah Al-Fatihah — Câu 6",
+    "btnQuran": "📖 Thiên Kinh Qur'an",
+    "btnAdhkar": "📿 Adhkar",
+    "btnAI": "🤖 Trợ lý AI",
+    "stats": {
+      "verses": "Câu kinh Qur'an",
+      "hadiths": "Hadith",
+      "prophets": "Câu chuyện Nabi",
+      "names": "Tên của Allah"
+    },
+    "sectionTitle": "Các mục của trang",
+    "sectionDesc": "Mọi thứ người Muslim cần ở cùng một nơi",
+    "features": {
+      "quran": {
+        "title": "Thiên Kinh Qur'an",
+        "desc": "Trọn bộ Qur'an kèm Tafsir và tìm kiếm câu kinh",
+        "badge": "114 Surah"
+      },
+      "hadith": {
+        "title": "Hadith của Nabi",
+        "desc": "Sahih al-Bukhari, Muslim và các bộ Sunan lớn kèm phân loại",
+        "badge": "6 bộ sách"
+      },
+      "adhkar": {
+        "title": "Adhkar & Du'a",
+        "desc": "Trọn bộ Hisn al-Muslim — Adhkar buổi sáng, buổi chiều và trước khi ngủ",
+        "badge": "200+ Adhkar"
+      },
+      "prophets": {
+        "title": "Câu chuyện các Nabi",
+        "desc": "Câu chuyện của tất cả các Nabi được nhắc đến trong Qur'an",
+        "badge": "25 Nabi"
+      },
+      "seerah": {
+        "title": "Tiểu sử Nabi",
+        "desc": "Toàn bộ cuộc đời của Nabi ﷺ — từ lúc sinh ra đến khi qua đời",
+        "badge": "Đầy đủ"
+      },
+      "asmaAllah": {
+        "title": "99 Tên của Allah",
+        "desc": "Giải thích 99 tên gọi cùng ý nghĩa và ân phúc",
+        "badge": "99 Tên"
+      },
+      "prayerTimes": {
+        "title": "Giờ Salah",
+        "desc": "Giờ Salah chính xác cho mọi thành phố trên thế giới",
+        "badge": "Chính xác"
+      },
+      "ai": {
+        "title": "Trợ lý Hồi giáo AI",
+        "desc": "Hãy hỏi bất cứ điều gì — câu trả lời từ Qur'an và Sunnah",
+        "badge": "AI"
+      }
+    },
+    "dailyAyah": "Câu kinh hôm nay",
+    "dailyAyahRef": "Surah At-Talaq — Câu 2-3",
+    "readFullSurah": "Đọc trọn Surah",
+    "aiTitle": "Trợ lý Hồi giáo AI \"Al-Rashid\"",
+    "aiDesc": "Hãy hỏi bất kỳ câu hỏi nào về Islam, trợ lý sẽ trả lời từ Thiên Kinh Qur'an và Sunnah xác thực của Nabi",
+    "aiBtn": "Bắt đầu trò chuyện",
+    "servicesTitle": "Dịch vụ Hồi giáo",
+    "servicesDesc": "Bộ dịch vụ chọn lọc cho nhu cầu Hồi giáo hằng ngày của bạn",
+    "services": {
+      "live": {
+        "title": "Trực tiếp",
+        "desc": "Xem trực tiếp các kênh Hồi giáo"
+      },
+      "scholars": {
+        "title": "Học giả",
+        "desc": "Làm quen với các học giả và nhà thuyết giảng đáng tin cậy"
+      },
+      "kids": {
+        "title": "Giáo dục trẻ em",
+        "desc": "Bài học Hồi giáo đơn giản, phù hợp với trẻ em"
+      },
+      "hadith": {
+        "title": "Hadith",
+        "desc": "Hadith chọn lọc kèm tìm kiếm và chia sẻ"
+      }
+    },
+    "featuresVideos": {
+      "title": "Video Hồi giáo",
+      "desc": "Bài giảng đáng tin cậy từ các kênh Hồi giáo chính thức"
+    },
+    "btnWatchVideos": "📺 Xem video",
+    "btnLiveMakkah": "📡 Trực tiếp từ Makkah",
+    "journey": {
+      "title": "Bắt đầu hành trình của bạn",
+      "subtitle": "Hướng dẫn đơn giản, từng bước cho bất kỳ ai muốn tìm hiểu về Islam",
+      "steps": {
+        "islam": "Islam là gì?",
+        "allah": "Allah là ai?",
+        "prophet": "Nabi Muhammad ﷺ là ai?",
+        "quran": "Qur'an là gì?",
+        "prayer": "Tại sao chúng ta dâng lễ Salah?",
+        "ramadan": "Ramadan",
+        "hajj": "Hajj",
+        "live": "Xem Makkah trực tiếp",
+        "ai": "Hỏi trợ lý AI"
+      }
+    },
+    "whyExplore": {
+      "title": "Vì sao nên tìm hiểu Islam",
+      "subtitle": "Những giá trị nhân văn phổ quát ở trung tâm của Islam",
+      "values": {
+        "mercy": {
+          "title": "Lòng thương xót",
+          "desc": "Người Muslim bắt đầu mọi việc nhân danh Đấng Rất Mực Độ Lượng — lòng thương xót là trọng tâm trong cách Islam nhìn nhận mọi tạo vật.",
+          "ref": "Surah Al-Anbiya — Câu 107"
+        },
+        "justice": {
+          "title": "Công bằng",
+          "desc": "Islam ra lệnh phải công bằng ngay cả với người mình không ưa, và gắn liền công bằng với lòng kính sợ Allah.",
+          "ref": "Surah Al-Ma'idah — Câu 8"
+        },
+        "compassion": {
+          "title": "Lòng trắc ẩn",
+          "desc": "Nabi ﷺ mô tả những người có đức tin như một cơ thể thống nhất trong tình thương yêu lẫn nhau.",
+          "ref": "Được thống nhất (Muttafaq 'alaih)"
+        },
+        "knowledge": {
+          "title": "Tri thức",
+          "desc": "Lời mặc khải Qur'an đầu tiên là mệnh lệnh hãy đọc — tìm kiếm tri thức là bổn phận của mọi người Muslim.",
+          "ref": "Surah Al-Alaq — Câu 1"
+        },
+        "family": {
+          "title": "Gia đình",
+          "desc": "Islam đặc biệt coi trọng việc hiếu kính cha mẹ và giữ gìn tình thân gia đình.",
+          "ref": "Surah Al-Isra — Câu 23"
+        },
+        "hope": {
+          "title": "Hy vọng",
+          "desc": "Islam cấm tuyệt vọng về lòng thương xót của Allah, dù khó khăn lớn đến đâu.",
+          "ref": "Surah Az-Zumar — Câu 53"
+        },
+        "peace": {
+          "title": "Hòa bình",
+          "desc": "Chính từ \"Islam\" có chung gốc với từ \"hòa bình\", và người Muslim chào nhau bằng lời chúc bình an.",
+          "ref": "Surah An-Nisa — Câu 94"
+        },
+        "honesty": {
+          "title": "Trung thực",
+          "desc": "Nabi ﷺ khuyến khích sự trung thực cho đến khi nó đưa con người lên hàng ngũ những người chân chính.",
+          "ref": "Được thống nhất (Muttafaq 'alaih)"
+        }
+      }
+    },
+    "meetProphet": {
+      "title": "Làm quen với Nabi Muhammad ﷺ",
+      "subtitle": "Vị Nabi cuối cùng, hồng ân cho toàn vũ trụ, người được mặc khải Qur'an",
+      "cta": "Đọc thêm"
+    },
+    "discoverQuran": {
+      "title": "Khám phá Qur'an",
+      "subtitle": "6.236 câu kinh trong tầm tay — đọc, nghe và tìm kiếm",
+      "tiles": {
+        "read": "Đọc",
+        "listen": "Nghe",
+        "translations": "Bản dịch",
+        "randomVerse": "Câu ngẫu nhiên",
+        "search": "Tìm kiếm",
+        "continueReading": "Đọc tiếp"
+      }
+    },
+    "fivePillarsSection": {
+      "title": "Năm trụ cột của Islam",
+      "subtitle": "Nền tảng xây dựng nên cuộc sống của người Muslim",
+      "pillars": {
+        "shahada": {
+          "name": "Shahadah",
+          "desc": "Chứng nhận rằng không có Thượng Đế nào khác ngoài Allah, và Muhammad là Thiên Sứ của Ngài"
+        },
+        "salah": {
+          "name": "Salah",
+          "desc": "Năm lễ nguyện mỗi ngày gắn kết người có đức tin với Allah"
+        },
+        "zakat": {
+          "name": "Zakat",
+          "desc": "Trích một phần tài sản cho người khó khăn"
+        },
+        "sawm": {
+          "name": "Sawm",
+          "desc": "Nhịn chay tháng Ramadan để rèn luyện bản thân và kính sợ Allah"
+        },
+        "hajj": {
+          "name": "Hajj",
+          "desc": "Hành hương đến Makkah một lần trong đời đối với người có khả năng"
+        }
+      }
+    },
+    "worldStats": {
+      "title": "Islam trên toàn thế giới",
+      "stats": {
+        "muslims": "Người Muslim trên thế giới",
+        "countries": "Quốc gia đa số Muslim",
+        "religion": "Tôn giáo tăng trưởng nhanh nhất",
+        "history": "Năm lịch sử liên tục"
+      }
+    },
+    "faqSection": {
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Câu trả lời ngắn gọn cho những câu hỏi phổ biến nhất về Islam"
+    },
+    "watchLearn": {
+      "title": "Xem & Học",
+      "subtitle": "Chỉ các bài giảng từ những kênh Hồi giáo chính thức đã được xác minh",
+      "playAria": "Phát video: {title}",
+      "seeAll": "Xem tất cả video"
+    },
+    "liveMakkah": {
+      "title": "Trực tiếp từ Makkah & Madinah",
+      "subtitle": "Theo dõi chương trình phát sóng chính thức 24/7 từ hai Thánh đường linh thiêng",
+      "status": "Đang phát trực tiếp",
+      "seeAll": "Xem tất cả kênh trực tiếp"
+    },
+    "trustedScholarsSection": {
+      "title": "Học giả đáng tin cậy",
+      "subtitle": "Làm quen với các học giả và nhà thuyết giảng đã được xác minh, chỉ liên kết đến nguồn chính thức của họ",
+      "seeAll": "Xem tất cả học giả"
+    },
+    "dailyInspiration": {
+      "title": "Cảm hứng mỗi ngày",
+      "subtitle": "Một câu kinh, một Hadith và một lời Du'a — làm mới mỗi ngày"
+    },
+    "todaysPicks": {
+      "featuredVideo": "Video nổi bật hôm nay",
+      "featuredScholar": "Học giả nổi bật hôm nay"
+    },
+    "finalCta": {
+      "title": "Tiếp tục hành trình của bạn",
+      "subtitle": "Dù bạn bắt đầu từ đâu, trang này luôn đồng hành cùng bạn trong từng bước tiếp theo",
+      "btnQuran": "📖 Đọc Qur'an",
+      "btnAI": "🤖 Hỏi AI",
+      "btnVideos": "📺 Xem video",
+      "btnLearnMore": "🌟 Tìm hiểu thêm"
+    },
+    "voiceIntro": {
+      "listen": "🔊 Nghe giới thiệu",
+      "stop": "⏹ Dừng",
+      "unavailable": "Trình duyệt của bạn không hỗ trợ đọc bằng giọng nói cho ngôn ngữ này.",
+      "text": "Assalamu alaikum, chào mừng bạn đến với As-Sirat Al-Mustaqeem.\n\nIslam là tôn giáo của độc thần và lòng thương xót. Islam kêu gọi con người chỉ thờ phượng một Thượng Đế duy nhất, và được xây dựng trên sự công bằng và lòng trắc ẩn đối với mọi tạo vật. Allah đã cử Nabi Muhammad, cầu xin bình an cho Người, làm hồng ân cho toàn thể thế giới.\n\nTrang web này mang đến cho bạn một hành trình trọn vẹn qua mọi điều liên quan đến đức tin của bạn, từ đầu đến cuối: trọn bộ Thiên Kinh Qur'an kèm lời giải thích và giọng đọc, các Hadith xác thực của Nabi từ những tuyển tập đáng tin cậy, câu chuyện của các Nabi như được nhắc đến trong Qur'an, tiểu sử đầy đủ của Nabi từ lúc chào đời đến khi qua đời, chín mươi chín Tên Gọi Tốt Đẹp của Allah cùng ý nghĩa và ân phúc của chúng, và một bộ sưu tập đầy đủ các lời Adhkar hằng ngày.\n\nBạn cũng sẽ tìm thấy mục giới thiệu các học giả và nhà thuyết giảng đáng tin cậy, thư viện video Hồi giáo bổ ích, chương trình phát sóng trực tiếp suốt ngày đêm từ hai Thánh đường linh thiêng, giờ Salah chính xác cho thành phố của bạn, một mục riêng giúp dạy con bạn những điều cơ bản về đức tin một cách thú vị, và chức năng tìm kiếm để nhanh chóng tìm thấy bất kỳ nội dung nào bạn cần.\n\nHãy thong thả, và khám phá bất cứ điều gì bạn quan tâm, không hề có áp lực hay vội vàng. Cánh cửa này luôn rộng mở cho bất kỳ ai muốn học hỏi, đặt câu hỏi, hay đơn giản là suy ngẫm.\n\nVà nếu có câu hỏi nào nảy ra trong đầu, trợ lý AI của chúng tôi, Al-Rashid, luôn sẵn sàng trả lời từ Qur'an và Sunnah của Nabi, bất cứ lúc nào.\n\nChúc bạn có một hành trình thú vị và đầy ý nghĩa."
+    }
+  },
+  "quran": {
+    "title": "Thiên Kinh Qur'an",
+    "subtitle": "Lời phán của Allah được mặc khải cho Nabi Muhammad ﷺ — 114 Surah — 6.236 câu kinh",
+    "searchPlaceholder": "Tìm Surah theo tên hoặc số...",
+    "resultsCount": "{count} kết quả",
+    "noResults": "Không tìm thấy Surah nào có tên này",
+    "clearSearch": "Xóa tìm kiếm",
+    "surahsLabel": "Surah",
+    "versesLabel": "Câu kinh",
+    "ajzaLabel": "Juz",
+    "ayahsCount": "câu",
+    "meccan": "Makkah",
+    "medinan": "Madinah",
+    "backToList": "Quay lại danh sách Surah",
+    "copy": "Sao chép",
+    "showTranslation": "Hiện bản dịch",
+    "modeList": "Từng câu",
+    "modeReading": "Đọc liền mạch",
+    "page": "Trang",
+    "copied": "Đã sao chép",
+    "prevSurah": "Surah trước",
+    "juz": "Juz",
+    "nextSurah": "Surah tiếp theo",
+    "referenceTitle": "Nguồn tham khảo Qur'an",
+    "referenceDesc": "Nguồn tham khảo bên ngoài này cho phép bạn đọc Thiên Kinh Qur'an bằng chữ Uthmani, nghe giọng đọc, đọc Tafsir, tìm kiếm câu kinh và duyệt các Surah một cách dễ dàng.\nTrang này không hiển thị nội dung của nguồn tham khảo — chỉ cung cấp lối truy cập nhanh đến đó.",
+    "referenceLinkBtn": "Đi đến nguồn tham khảo Qur'an",
+    "referenceFeatures": {
+      "read": {
+        "title": "📖 Đọc Thiên Kinh Qur'an",
+        "desc": "Đi thẳng đến trang đọc Thiên Kinh Qur'an bằng chữ Uthmani rõ ràng."
+      },
+      "listen": {
+        "title": "🎧 Nghe giọng đọc",
+        "desc": "Nghe giọng đọc từ các nguồn đáng tin cậy trên trang tham khảo."
+      },
+      "tafsir": {
+        "title": "📚 Tafsir Qur'an",
+        "desc": "Dễ dàng tham khảo nhiều bản Tafsir của các câu kinh."
+      },
+      "search": {
+        "title": "🔍 Tìm kiếm trong Qur'an",
+        "desc": "Tìm câu kinh và Surah nhanh chóng, chính xác."
+      },
+      "browse": {
+        "title": "⭐ Duyệt tất cả Surah",
+        "desc": "Dễ dàng duyệt toàn bộ danh sách Surah."
+      }
+    },
+    "referenceNote": "Nguồn tham khảo sẽ mở trong cửa sổ mới để bạn dùng mọi dịch vụ của nó và dễ dàng quay lại trang của chúng tôi."
+  },
+  "hadith": {
+    "title": "Hadith cao quý của Nabi",
+    "subtitle": "قَالَ رَسُولُ اللَّهِ ﷺ",
+    "booksTitle": "Sách Hadith",
+    "selectedTitle": "Hadith chọn lọc",
+    "hadithsUnit": "Hadith",
+    "narrator": "Thuật lại bởi",
+    "grades": {
+      "SAHIH": "Sahih",
+      "HASAN": "Hasan",
+      "DAIF": "Da'if",
+      "MAWDU": "Mawdu'"
+    },
+    "heroDesc": "Tuyển tập chọn lọc các Hadith xác thực (Sahih) và tốt (Hasan) từ Al-Arba'in An-Nawawiyyah và Riyad As-Salihin, phân loại theo chủ đề và cấp độ.",
+    "dorarTitle": "Tìm kiếm trong Bách khoa Dorar As-Saniyyah",
+    "dorarDesc": "Tìm kiếm hàng triệu Hadith và chủ đề trực tiếp trên trang Dorar As-Saniyyah, kèm đường dẫn nhanh đến tìm kiếm và các bộ bách khoa chuyên ngành.",
+    "dorarPlaceholder": "Nhập từ khóa rồi nhấn tìm kiếm",
+    "dorarSearchBtn": "Tìm kiếm",
+    "visitDorar": "Truy cập Bách khoa Dorar As-Saniyyah",
+    "servicesTitle": "Dịch vụ Dorar As-Saniyyah",
+    "servicesDesc": "Đường dẫn nhanh đến các bộ bách khoa chính của Dorar As-Saniyyah để bạn đến thẳng sách và dịch vụ mình cần.",
+    "serviceOpenDesc": "Mở mục tương ứng trên trang Dorar As-Saniyyah.",
+    "services": {
+      "encyclopedia": "Bách khoa Hadith",
+      "adhkar": "Adhkar",
+      "duas": "Du'a",
+      "scientific": "Bách khoa học thuật",
+      "fiqh": "Bách khoa Fiqh"
+    },
+    "filterPlaceholder": "Tìm Hadith, người thuật lại hoặc chủ đề",
+    "categoriesLabel": "Danh mục:",
+    "shareTitle": "Hadith Hồi giáo",
+    "copyHadithBtn": "Sao chép Hadith",
+    "shareHadithBtn": "Chia sẻ Hadith"
+  },
+  "adhkar": {
+    "title": "Adhkar & Du'a",
+    "subtitle": "Hisn al-Muslim — Adhkar được thuật lại từ Nabi ﷺ",
+    "source": "Nguồn",
+    "of": "trong",
+    "categories": {
+      "MORNING": "Adhkar buổi sáng",
+      "EVENING": "Adhkar buổi chiều",
+      "SLEEP": "Adhkar trước khi ngủ",
+      "WAKE_UP": "Adhkar khi thức dậy",
+      "PRAYER": "Adhkar trong Salah",
+      "TRAVEL": "Adhkar khi đi xa",
+      "FOOD": "Adhkar khi ăn uống",
+      "GENERAL": "Adhkar chung"
+    },
+    "searchPlaceholder": "Tìm Adhkar và Du'a...",
+    "noResults": "Không tìm thấy kết quả phù hợp"
+  },
+  "prophets": {
+    "title": "Câu chuyện các Nabi và Thiên Sứ",
+    "ayah": "﴿ وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ أَنبَاءِ الرُّسُلِ ﴾",
+    "inQuran": "× trong Qur'an",
+    "backToList": "← Quay lại danh sách các Nabi",
+    "storyTitle": "Câu chuyện",
+    "lessonsTitle": "Bài học & Suy ngẫm",
+    "referencesTitle": "Được nhắc đến trong Qur'an"
+  },
+  "seerah": {
+    "title": "Tiểu sử Nabi",
+    "subtitle": "Muhammad, Thiên Sứ của Allah ﷺ",
+    "period": "570 CN — 632 CN | 23 năm sứ mạng Nabi",
+    "age": "năm cuộc đời của Người ﷺ",
+    "prophethood": "năm sứ mạng",
+    "battles": "trận chiến",
+    "closingAyahRef": "Surah Al-Ahzab — Câu 21",
+    "closingAyah": "﴿ لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ ﴾"
+  },
+  "ai": {
+    "title": "Al-Rashid",
+    "subtitle": "Trợ lý Hồi giáo AI — Câu trả lời từ Qur'an và Sunnah",
+    "online": "Đang trực tuyến",
+    "soundOn": "Bật âm thanh",
+    "soundOff": "Tắt âm thanh",
+    "serverTTS": "Giọng nói thần kinh",
+    "browserTTS": "Trình duyệt",
+    "stop": "Dừng",
+    "listen": "🔊 Nghe",
+    "placeholder": "Nhập câu hỏi về Islam của bạn tại đây...",
+    "disclaimer": "Trợ lý trả lời dựa trên Qur'an và Sunnah của Nabi — hãy luôn kiểm chứng nguồn",
+    "greeting": "Assalamu alaikum 🌙\n\nTôi là \"Al-Rashid\", trợ lý Hồi giáo AI của bạn. Tôi trả lời các câu hỏi của bạn từ Thiên Kinh Qur'an và Sunnah xác thực của Nabi.\n\nTôi có thể giúp gì cho bạn hôm nay?",
+    "errorGeneral": "Xin lỗi, đã xảy ra lỗi. Vui lòng thử lại.",
+    "errorConnection": "Xin lỗi, đã xảy ra lỗi kết nối. Hãy đảm bảo khóa API đã được cấu hình.",
+    "userAvatar": "B",
+    "quickQuestions": [
+      "Năm trụ cột của Islam là gì?",
+      "Ân phúc của việc đọc Qur'an là gì?",
+      "Sáu trụ cột đức tin là gì?",
+      "Giải thích ý nghĩa của Tawhid",
+      "Giáo luật về Salah trong Islam là gì?",
+      "Ân phúc của việc cầu xin tha thứ (Istighfar) là gì?"
+    ]
+  },
+  "videos": {
+    "title": "📺 Video Hồi giáo",
+    "subtitle": "Nguồn tham khảo Hồi giáo chuyên nghiệp gồm các bài giảng, bài học và đoạn Da'wah đáng tin cậy từ những học giả và nhà thuyết giảng nổi tiếng, giúp bạn học hỏi và quay về với chân lý một cách vững tin.",
+    "quickSearch": "Tìm kiếm nhanh và hiệu quả",
+    "searchPlaceholder": "Tìm video theo tiêu đề, kênh, diễn giả hoặc danh mục",
+    "categoryFilter": "Danh mục",
+    "channelAndSpeaker": "Kênh & Diễn giả",
+    "statsAvailable": "Video hiện có",
+    "statsFeatured": "Nội dung nổi bật",
+    "statsFeaturedDesc": "Lựa chọn đáng tin cậy",
+    "discover": "Khám phá Islam",
+    "discoverDesc": "Nếu bạn muốn tìm hiểu về Islam và thông điệp của Nabi Muhammad ﷺ, tại đây bạn sẽ tìm thấy tuyển chọn các video giới thiệu với thông tin đáng tin cậy và rõ ràng.",
+    "sectionDesc": "Tuyển tập video chọn lọc liên quan đến lĩnh vực Hồi giáo này.",
+    "referenceTitle": "Nguồn tham khảo Hồi giáo chuyên nghiệp",
+    "referenceDesc": "Tất cả video được trình bày dưới dạng liên kết YouTube chính thức, hỗ trợ tìm kiếm, lọc, yêu thích và chia sẻ, đồng thời giữ nguyên bản sắc hình ảnh và chất lượng học thuật của trang.",
+    "watchNow": "Xem ngay",
+    "share": "Chia sẻ",
+    "copyLink": "Sao chép liên kết",
+    "saved": "Đã lưu",
+    "addToFavorites": "Thêm vào yêu thích",
+    "libraryBadge": "Thư viện Da'wah đáng tin cậy",
+    "libraryStats": "Thống kê thư viện",
+    "visitChannel": "Truy cập kênh",
+    "noResults": "Không có video nào khớp với tìm kiếm của bạn.",
+    "channelChip": "Kênh: {channel}",
+    "sheikhChip": "Sheikh: {sheikh}",
+    "playAria": "Phát video: {title}",
+    "thumbnailAlt": "Ảnh thu nhỏ của video: {title}",
+    "langArabic": "Tiếng Ả Rập",
+    "langEnglish": "Tiếng Anh",
+    "categories": {
+      "aqeedah": "Aqeedah",
+      "fiqh": "Fiqh",
+      "seerah": "Seerah",
+      "dawah": "Da'wah",
+      "tazkiyah": "Tazkiyah"
+    }
+  },
+  "common": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "retry": "Thử lại",
+    "back": "Quay lại",
+    "backToSite": "Quay lại trang",
+    "admin": "Quản trị viên",
+    "dashboard": "Bảng điều khiển",
+    "all": "Tất cả",
+    "comingSoon": "Sắp ra mắt",
+    "play": "Phát"
+  },
+  "admin": {
+    "title": "Quản trị As-Sirat Al-Mustaqeem",
+    "panel": "Bảng điều khiển",
+    "nav": {
+      "dashboard": "Bảng điều khiển",
+      "users": "Người dùng",
+      "content": "Nội dung",
+      "hadiths": "Hadith",
+      "adhkar": "Adhkar",
+      "analytics": "Phân tích",
+      "settings": "Cài đặt"
+    },
+    "backToSite": "Quay lại trang"
+  },
+  "asmaAllah": {
+    "searchPlaceholder": "Tìm một tên của Allah...",
+    "resultsCount": "{count} trong 99 tên",
+    "noResults": "Không tìm thấy kết quả phù hợp",
+    "description": "Trọn bộ 99 Tên Gọi Tốt Đẹp của Allah kèm ý nghĩa, giải thích và dẫn chứng Qur'an cho từng tên.",
+    "ayah": "﴿ وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَى فَادْعُوهُ بِهَا ﴾"
+  },
+  "prayerTimes": {
+    "cityLabel": "Thành phố",
+    "countryLabel": "Mã quốc gia",
+    "cityPlaceholder": "Jeddah",
+    "countryPlaceholder": "SA",
+    "searchBtn": "Tìm kiếm",
+    "useMyLocation": "📍 Dùng vị trí hiện tại của tôi",
+    "loading": "Đang tải giờ Salah...",
+    "errorFetch": "Không tải được giờ Salah",
+    "errorConnection": "Không kết nối được với dịch vụ giờ Salah",
+    "errorLocation": "Không truy cập được vị trí của bạn — bạn có thể chọn thành phố thủ công",
+    "yourLocation": "Vị trí hiện tại của bạn",
+    "nextPrayer": "Lễ Salah tiếp theo",
+    "after": "Còn {time}",
+    "hoursAndMinutes": "{h} giờ {m} phút",
+    "minutesOnly": "{m} phút",
+    "midnight": "Nửa đêm",
+    "prayers": {
+      "imsak": "Imsak",
+      "fajr": "Fajr",
+      "sunrise": "Mặt trời mọc",
+      "dhuhr": "Dhuhr",
+      "asr": "Asr",
+      "maghrib": "Maghrib",
+      "isha": "Isha"
+    },
+    "pageDescription": "Giờ Salah đầy đủ cho thành phố hoặc vị trí hiện tại của bạn: Fajr, mặt trời mọc, Dhuhr, Asr, Maghrib và Isha."
+  },
+  "livePage": {
+    "title": "Phát sóng trực tiếp",
+    "subtitle": "Theo dõi trực tiếp các kênh truyền hình và radio Hồi giáo, với trải nghiệm thoải mái phù hợp với bản sắc của trang.",
+    "tvTitle": "Kênh truyền hình trực tiếp",
+    "radioTitle": "Đài radio Hồi giáo",
+    "radioPromo": "Hãy để tiếng Qur'an và Hadith của Nabi đồng hành cùng bạn mọi nơi — radio trực tiếp suốt ngày đêm với chất lượng cao, chỉ cách một lần chạm."
+  },
+  "scholarsPage": {
+    "title": "Học giả & Nhà thuyết giảng",
+    "subtitle": "Danh bạ đáng tin cậy về các học giả, nhà thuyết giảng và tổ chức Hồi giáo chính thức, chỉ liên kết đến nguồn chính thức đã được xác minh của họ.",
+    "categories": {
+      "saudi": "Học giả Ả Rập Xê Út",
+      "international": "Nhà thuyết giảng & Sheikh quốc tế",
+      "organization": "Tổ chức & Cơ quan Hồi giáo chính thức"
+    },
+    "specialtyLabel": "Chuyên môn:",
+    "countryLabel": "Quốc gia:",
+    "links": {
+      "website": "Truy cập website",
+      "youtube": "YouTube",
+      "fatwa": "Fatwa",
+      "lectures": "Bài giảng",
+      "x": "X",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+    "photoAlt": "Ảnh của {name}, {specialty}"
+  },
+  "kidsPage": {
+    "title": "Góc trẻ em",
+    "subtitle": "Nội dung đơn giản, vui nhộn để trẻ em tìm hiểu về Islam từng bước, với hình ảnh và lời giải thích dễ hiểu.",
+    "lessons": {
+      "wudu": {
+        "title": "Học Wudu",
+        "desc": "Các bước Wudu và vì sao Wudu quan trọng"
+      },
+      "prayer": {
+        "title": "Học Salah",
+        "desc": "Các bước và trụ cột cơ bản của Salah"
+      },
+      "umrah": {
+        "title": "Học Umrah",
+        "desc": "Các bước Umrah được giải thích đơn giản"
+      },
+      "hajj": {
+        "title": "Học Hajj",
+        "desc": "Các địa điểm linh thiêng và các bước của Hajj"
+      },
+      "learn": {
+        "title": "Islam cho trẻ em",
+        "desc": "Những điều cơ bản và các trụ cột của Islam"
+      }
+    }
+  },
+  "kidsLesson": {
+    "explanationTitle": "Giải thích đơn giản",
+    "watchVideoTitle": "Xem video",
+    "quizTitle": "Câu đố nhanh",
+    "answerLabel": "Đáp án"
+  }
+}

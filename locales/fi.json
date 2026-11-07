@@ -1,0 +1,613 @@
+{
+  "meta": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "siteDesc": "Kattava islamilainen alusta Pyhälle Koraanille, profeetan sunnalle ja islamilaisille tieteille"
+  },
+  "nav": {
+    "home": "Etusivu",
+    "quran": "Koraani",
+    "hadith": "Hadithit",
+    "adhkar": "Adhkar",
+    "prophets": "Profeetat",
+    "live": "Suora",
+    "scholars": "Oppineet",
+    "kids": "Lapset",
+    "islamicVideos": "Videot",
+    "library": "Islamilainen kirjasto",
+    "mainSection": "Pääosio",
+    "seerah": "Sira",
+    "asmaAllah": "Allahin nimet",
+    "prayerTimes": "Rukousajat",
+    "search": "Haku",
+    "toggleTheme": "Vaihda teemaa",
+    "openMenu": "Avaa valikko",
+    "closeMenu": "Sulje valikko",
+    "language": "Kieli"
+  },
+  "footer": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "siteDesc": "Kattava islamilainen alusta Pyhälle Koraanille, profeetan sunnalle ja islamilaisille tieteille",
+    "sections": {
+      "quranHadith": "Koraani ja hadith",
+      "adhkarDua": "Adhkar ja du'a",
+      "islamicSciences": "Islamilaiset tieteet",
+      "services": "Palvelut"
+    },
+    "links": {
+      "quran": "Pyhä Koraani",
+      "tafsir": "Tafsir",
+      "bukhari": "Sahih al-Bukhari",
+      "muslim": "Sahih Muslim",
+      "morningAdhkar": "Aamun adhkar",
+      "eveningAdhkar": "Illan adhkar",
+      "hisnMuslim": "Hisn al-Muslim",
+      "travelAdhkar": "Matkan adhkar",
+      "prophetsStories": "Profeettojen tarinat",
+      "seerah": "Profeetan elämäkerta",
+      "asmaAllah": "Allahin 99 nimeä",
+      "prayerTimes": "Rukousajat",
+      "search": "Kattava haku",
+      "aiAssistant": "Islamilainen avustaja"
+    },
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "contact": "Ota yhteyttä",
+    "copyright": "Kaikki oikeudet pidätetään"
+  },
+  "home": {
+    "bismillah": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+    "title": "As-Sirat Al-Mustaqeem",
+    "subtitle": "Kattava islamilainen alusta Pyhälle Koraanille, profeetan sunnalle ja islamilaisille tieteille",
+    "ayah": "﴿ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴾",
+    "surahRef": "Suura Al-Fatiha — Jae 6",
+    "btnQuran": "📖 Pyhä Koraani",
+    "btnAdhkar": "📿 Adhkar",
+    "btnAI": "🤖 Tekoälyavustaja",
+    "stats": {
+      "verses": "Koraanin jakeet",
+      "hadiths": "Hadithit",
+      "prophets": "Profeettojen tarinat",
+      "names": "Allahin nimet"
+    },
+    "sectionTitle": "Sivuston osiot",
+    "sectionDesc": "Kaikki mitä muslimi tarvitsee yhdessä paikassa",
+    "features": {
+      "quran": {
+        "title": "Pyhä Koraani",
+        "desc": "Koko Koraani tafsirin ja jaehaun kera",
+        "badge": "114 suuraa"
+      },
+      "hadith": {
+        "title": "Profeetan hadithit",
+        "desc": "Sahih al-Bukhari, Muslim ja suurimmat sunan-kokoelmat luokituksineen",
+        "badge": "6 kirjaa"
+      },
+      "adhkar": {
+        "title": "Adhkar ja du'a",
+        "desc": "Koko Hisn al-Muslim — aamun, illan ja nukkumaanmenon adhkar",
+        "badge": "200+ adhkaria"
+      },
+      "prophets": {
+        "title": "Profeettojen tarinat",
+        "desc": "Kaikkien Koraanissa mainittujen profeettojen tarinat",
+        "badge": "25 profeettaa"
+      },
+      "seerah": {
+        "title": "Profeetan elämäkerta",
+        "desc": "Profeetan ﷺ koko elämä — syntymästä kuolemaan",
+        "badge": "Täydellinen"
+      },
+      "asmaAllah": {
+        "title": "Allahin 99 nimeä",
+        "desc": "99 nimen selitys merkityksineen ja ansioineen",
+        "badge": "99 nimeä"
+      },
+      "prayerTimes": {
+        "title": "Rukousajat",
+        "desc": "Tarkat rukousajat kaikille maailman kaupungeille",
+        "badge": "Tarkka"
+      },
+      "ai": {
+        "title": "Islamilainen tekoälyavustaja",
+        "desc": "Kysy mitä tahansa — vastaukset Koraanista ja sunnasta",
+        "badge": "AI"
+      }
+    },
+    "dailyAyah": "Päivän jae",
+    "dailyAyahRef": "Suura At-Talaq — Jakeet 2-3",
+    "readFullSurah": "Lue koko suura",
+    "aiTitle": "Islamilainen tekoälyavustaja \"Al-Rashid\"",
+    "aiDesc": "Kysy mikä tahansa islamiin liittyvä kysymys, ja avustaja vastaa Pyhän Koraanin ja profeetan aidon sunnan pohjalta",
+    "aiBtn": "Aloita keskustelu",
+    "servicesTitle": "Islamilaiset palvelut",
+    "servicesDesc": "Valikoima palveluita päivittäisiin islamilaisiin tarpeisiisi",
+    "services": {
+      "live": {
+        "title": "Suora",
+        "desc": "Katso islamilaisia kanavia suorana"
+      },
+      "scholars": {
+        "title": "Oppineet",
+        "desc": "Tutustu luotettaviin oppineisiin ja saarnaajiin"
+      },
+      "kids": {
+        "title": "Lasten opetus",
+        "desc": "Yksinkertaisia, lapsille sopivia islamilaisia oppitunteja"
+      },
+      "hadith": {
+        "title": "Hadith",
+        "desc": "Valittuja haditheja haku- ja jakotoiminnoin"
+      }
+    },
+    "featuresVideos": {
+      "title": "Islamilaiset videot",
+      "desc": "Luotettavia luentoja virallisilta islamilaisilta kanavilta"
+    },
+    "btnWatchVideos": "📺 Katso videoita",
+    "btnLiveMakkah": "📡 Suorana Mekasta",
+    "journey": {
+      "title": "Aloita matkasi",
+      "subtitle": "Yksinkertainen, vaiheittainen opas kaikille islamista kiinnostuneille",
+      "steps": {
+        "islam": "Mitä islam on?",
+        "allah": "Kuka on Allah?",
+        "prophet": "Kuka on profeetta Muhammad ﷺ?",
+        "quran": "Mikä on Koraani?",
+        "prayer": "Miksi rukoilemme?",
+        "ramadan": "Ramadan",
+        "hajj": "Hajj",
+        "live": "Katso Mekkaa suorana",
+        "ai": "Kysy tekoälyltä"
+      }
+    },
+    "whyExplore": {
+      "title": "Miksi tutustua islamiin",
+      "subtitle": "Yleismaailmallisia inhimillisiä arvoja islamin ytimessä",
+      "values": {
+        "mercy": {
+          "title": "Armo",
+          "desc": "Muslimit aloittavat jokaisen teon Armeliaimman nimeen — armo on keskeistä siinä, miten islam näkee koko luomakunnan.",
+          "ref": "Suura Al-Anbiya — Jae 107"
+        },
+        "justice": {
+          "title": "Oikeudenmukaisuus",
+          "desc": "Islam käskee olemaan oikeudenmukainen myös niitä kohtaan, joista emme pidä, ja liittää sen läheisesti jumalanpelkoon.",
+          "ref": "Suura Al-Ma'ida — Jae 8"
+        },
+        "compassion": {
+          "title": "Myötätunto",
+          "desc": "Profeetta ﷺ kuvasi uskovia yhtenä ruumiina heidän keskinäisessä myötätunnossaan.",
+          "ref": "Muttafaq 'alayh (yksimielisesti hyväksytty)"
+        },
+        "knowledge": {
+          "title": "Tieto",
+          "desc": "Koraanin ensimmäinen ilmoitus oli käsky lukea — tiedon etsiminen on jokaisen muslimin velvollisuus.",
+          "ref": "Suura Al-Alaq — Jae 1"
+        },
+        "family": {
+          "title": "Perhe",
+          "desc": "Islam painottaa syvästi vanhempien kunnioittamista ja perhesiteiden ylläpitämistä.",
+          "ref": "Suura Al-Isra — Jae 23"
+        },
+        "hope": {
+          "title": "Toivo",
+          "desc": "Islam kieltää epätoivon Jumalan armon suhteen, olipa vaikeus kuinka suuri tahansa.",
+          "ref": "Suura Az-Zumar — Jae 53"
+        },
+        "peace": {
+          "title": "Rauha",
+          "desc": "Sana \"islam\" jakaa saman kantasanan kuin \"rauha\", ja muslimit tervehtivät toisiaan sillä.",
+          "ref": "Suura An-Nisa — Jae 94"
+        },
+        "honesty": {
+          "title": "Rehellisyys",
+          "desc": "Profeetta ﷺ kehotti totuudellisuuteen, kunnes se johdattaa ihmisen vilpittömien joukkoon.",
+          "ref": "Muttafaq 'alayh (yksimielisesti hyväksytty)"
+        }
+      }
+    },
+    "meetProphet": {
+      "title": "Tutustu profeetta Muhammadiin ﷺ",
+      "subtitle": "Viimeinen profeetta, armo kaikille maailmoille, jolle Koraani ilmoitettiin",
+      "cta": "Lue lisää"
+    },
+    "discoverQuran": {
+      "title": "Löydä Koraani",
+      "subtitle": "6 236 jaetta ulottuvillasi — lue, kuuntele ja hae",
+      "tiles": {
+        "read": "Lue",
+        "listen": "Kuuntele",
+        "translations": "Käännökset",
+        "randomVerse": "Satunnainen jae",
+        "search": "Haku",
+        "continueReading": "Jatka lukemista"
+      }
+    },
+    "fivePillarsSection": {
+      "title": "Islamin viisi pilaria",
+      "subtitle": "Perusta, jolle muslimin elämä rakentuu",
+      "pillars": {
+        "shahada": {
+          "name": "Shahada",
+          "desc": "Todistus siitä, ettei ole muuta jumalaa kuin Allah ja että Muhammad on Hänen lähettiläänsä"
+        },
+        "salah": {
+          "name": "Salah",
+          "desc": "Viisi päivittäistä rukousta, jotka yhdistävät uskovan Jumalaan"
+        },
+        "zakat": {
+          "name": "Zakat",
+          "desc": "Osan omaisuudesta antaminen apua tarvitseville"
+        },
+        "sawm": {
+          "name": "Sawm",
+          "desc": "Paastoaminen ramadan-kuukauden ajan itsekurin ja Jumalan tietoisuuden vuoksi"
+        },
+        "hajj": {
+          "name": "Hajj",
+          "desc": "Pyhiinvaellus Mekkaan kerran elämässä sille, joka siihen kykenee"
+        }
+      }
+    },
+    "worldStats": {
+      "title": "Islam maailmalla",
+      "stats": {
+        "muslims": "Muslimia maailmassa",
+        "countries": "Muslimienemmistöistä maata",
+        "religion": "Nopeimmin kasvava uskonto",
+        "history": "Vuotta katkeamatonta historiaa"
+      }
+    },
+    "faqSection": {
+      "title": "Usein kysytyt kysymykset",
+      "subtitle": "Lyhyet vastaukset yleisimpiin islamia koskeviin kysymyksiin"
+    },
+    "watchLearn": {
+      "title": "Katso ja opi",
+      "subtitle": "Vain luentoja vahvistetuilta virallisilta islamilaisilta kanavilta",
+      "playAria": "Toista video: {title}",
+      "seeAll": "Näytä kaikki videot"
+    },
+    "liveMakkah": {
+      "title": "Suorana Mekasta ja Medinasta",
+      "subtitle": "Seuraa virallista ympärivuorokautista lähetystä kahdesta pyhästä moskeijasta",
+      "status": "Suora lähetys",
+      "seeAll": "Näytä kaikki suorat kanavat"
+    },
+    "trustedScholarsSection": {
+      "title": "Luotettavat oppineet",
+      "subtitle": "Tutustu vahvistettuihin oppineisiin ja saarnaajiin, linkitettynä vain heidän virallisiin lähteisiinsä",
+      "seeAll": "Näytä kaikki oppineet"
+    },
+    "dailyInspiration": {
+      "title": "Päivän inspiraatio",
+      "subtitle": "Jae, hadith ja du'a — uusiutuvat päivittäin"
+    },
+    "todaysPicks": {
+      "featuredVideo": "Päivän nostovideo",
+      "featuredScholar": "Päivän nosto-oppinut"
+    },
+    "finalCta": {
+      "title": "Jatka matkaasi",
+      "subtitle": "Mistä tahansa aloitatkin, tämä sivusto kulkee kanssasi jokaisella askeleella",
+      "btnQuran": "📖 Lue Koraania",
+      "btnAI": "🤖 Kysy tekoälyltä",
+      "btnVideos": "📺 Katso videoita",
+      "btnLearnMore": "🌟 Lue lisää"
+    },
+    "voiceIntro": {
+      "listen": "🔊 Kuuntele esittely",
+      "stop": "⏹ Pysäytä",
+      "unavailable": "Ääniluku ei ole saatavilla selaimessasi tälle kielelle.",
+      "text": "Rauha ja siunaus olkoon sinulle, ja tervetuloa As-Sirat Al-Mustaqeemiin.\n\nIslam on jumalallisen ykseyden ja armon uskonto. Se kutsuu ihmisiä palvomaan yksin Ainoaa Jumalaa, ja se rakentuu oikeudenmukaisuudelle ja myötätunnolle koko luomakuntaa kohtaan. Jumala lähetti profeetta Muhammadin, rauha hänelle, armoksi koko maailmalle.\n\nTämä sivusto tarjoaa sinulle kokonaisen matkan kaikkeen uskoosi liittyvään, alusta loppuun: koko Pyhän Koraanin selityksineen ja resitaatioineen, profeetan aidot hadithit luotettavista kokoelmista, profeettojen tarinat sellaisina kuin ne Koraanissa mainitaan, profeetan täydellisen elämäkerran syntymästä kuolemaan, Allahin yhdeksänkymmentäyhdeksän kaunista nimeä merkityksineen ja ansioineen sekä kattavan kokoelman päivittäisiä adhkareita.\n\nLöydät myös osion luotettavista oppineista ja saarnaajista, kirjaston merkityksellisiä islamilaisia videoita, ympärivuorokautisen suoran lähetyksen kahdesta pyhästä moskeijasta, tarkat rukousajat kaupungillesi, oman osion, jossa voit opettaa lapsillesi uskon perusteet mukaansatempaavalla tavalla, sekä hakutoiminnon, jolla löydät nopeasti etsimäsi sisällön.\n\nOta aikaa ja tutustu siihen, mikä sinua kiinnostaa, ilman painetta tai kiirettä. Tämä ovi on avoinna kaikille, jotka haluavat oppia, kysyä tai yksinkertaisesti pohtia.\n\nJa jos mieleesi tulee jokin kysymys, tekoälyavustajamme Al-Rashid on valmis vastaamaan siihen Koraanin ja profeetan sunnan pohjalta milloin tahansa.\n\nToivotamme sinulle miellyttävää ja merkityksellistä matkaa."
+    }
+  },
+  "quran": {
+    "title": "Pyhä Koraani",
+    "subtitle": "Allahin sana, joka ilmoitettiin profeetta Muhammadille ﷺ — 114 suuraa — 6 236 jaetta",
+    "searchPlaceholder": "Hae suuraa nimellä tai numerolla...",
+    "resultsCount": "{count} tulosta",
+    "noResults": "Tällä nimellä ei löytynyt suuraa",
+    "clearSearch": "Tyhjennä haku",
+    "surahsLabel": "Suurat",
+    "versesLabel": "Jakeet",
+    "ajzaLabel": "Ajza",
+    "ayahsCount": "jaetta",
+    "meccan": "Mekkalainen",
+    "medinan": "Medinalainen",
+    "backToList": "Takaisin suurien luetteloon",
+    "copy": "Kopioi",
+    "showTranslation": "Näytä käännös",
+    "modeList": "Jae jakeelta",
+    "modeReading": "Yhtenäinen teksti",
+    "page": "Sivu",
+    "copied": "Kopioitu",
+    "prevSurah": "Edellinen suura",
+    "juz": "Juz",
+    "nextSurah": "Seuraava suura",
+    "referenceTitle": "Koraaniviite",
+    "referenceDesc": "Tämän ulkoisen viitteen avulla voit lukea Pyhää Koraania uthmanilaisella kirjoituksella, kuunnella resitaatioita, lukea tafsiria, hakea jakeita ja selata suuria helposti.\nTämä sivusto ei näytä itse viitteen sisältöä — se tarjoaa vain nopean pääsyn siihen.",
+    "referenceLinkBtn": "Siirry Koraaniviitteeseen",
+    "referenceFeatures": {
+      "read": {
+        "title": "📖 Lue Pyhää Koraania",
+        "desc": "Siirry suoraan lukemaan Pyhää Koraania selkeällä uthmanilaisella kirjoituksella."
+      },
+      "listen": {
+        "title": "🎧 Kuuntele resitaatioita",
+        "desc": "Kuuntele resitaatioita luotettavista lähteistä ulkoisessa viitteessä."
+      },
+      "tafsir": {
+        "title": "📚 Koraanin tafsir",
+        "desc": "Selaa helposti useita jakeiden tulkintoja."
+      },
+      "search": {
+        "title": "🔍 Hae Koraanista",
+        "desc": "Hae jakeita ja suuria nopeasti ja tarkasti."
+      },
+      "browse": {
+        "title": "⭐ Selaa kaikkia suuria",
+        "desc": "Selaa helposti koko suurien luetteloa."
+      }
+    },
+    "referenceNote": "Viite avautuu uuteen ikkunaan, jotta voit käyttää kaikkia sen palveluita ja palata helposti sivustollemme."
+  },
+  "hadith": {
+    "title": "Profeetan jalot hadithit",
+    "subtitle": "قَالَ رَسُولُ اللَّهِ ﷺ",
+    "booksTitle": "Hadith-kokoelmat",
+    "selectedTitle": "Valitut hadithit",
+    "hadithsUnit": "hadithia",
+    "narrator": "Kertojana",
+    "grades": {
+      "SAHIH": "Sahih",
+      "HASAN": "Hasan",
+      "DAIF": "Da'if",
+      "MAWDU": "Mawdu'"
+    },
+    "heroDesc": "Valikoitu kokoelma aitoja (sahih) ja hyviä (hasan) haditheja teoksista Al-Arba'in An-Nawawiyya ja Riyad as-Salihin, luokiteltuina aiheen ja asteen mukaan.",
+    "dorarTitle": "Hae Dorar As-Saniyya -tietosanakirjasta",
+    "dorarDesc": "Hae miljoonia haditheja ja aiheita suoraan Dorar As-Saniyya -sivustolta, pikalinkillä hakuun ja erikoistuneisiin tietosanakirjoihin.",
+    "dorarPlaceholder": "Kirjoita hakusana ja paina hae",
+    "dorarSearchBtn": "Hae",
+    "visitDorar": "Vieraile Dorar As-Saniyya -tietosanakirjassa",
+    "servicesTitle": "Dorar As-Saniyyan palvelut",
+    "servicesDesc": "Pikalinkit Dorar As-Saniyyan tärkeimpiin tietosanakirjoihin, jotta pääset suoraan etsimiisi kirjoihin ja palveluihin.",
+    "serviceOpenDesc": "Avaa vastaavan osion Dorar As-Saniyya -sivustolla.",
+    "services": {
+      "encyclopedia": "Hadith-tietosanakirja",
+      "adhkar": "Adhkar",
+      "duas": "Du'at",
+      "scientific": "Tieteellinen tietosanakirja",
+      "fiqh": "Fiqh-tietosanakirja"
+    },
+    "filterPlaceholder": "Hae haditheja, kertojia tai aiheita",
+    "categoriesLabel": "Luokat:",
+    "shareTitle": "Islamilainen hadith",
+    "copyHadithBtn": "Kopioi hadith",
+    "shareHadithBtn": "Jaa hadith"
+  },
+  "adhkar": {
+    "title": "Adhkar ja du'a",
+    "subtitle": "Hisn al-Muslim — profeetalta ﷺ välitetyt adhkarit",
+    "source": "Lähde",
+    "of": "/",
+    "categories": {
+      "MORNING": "Aamun adhkar",
+      "EVENING": "Illan adhkar",
+      "SLEEP": "Nukkumaanmenon adhkar",
+      "WAKE_UP": "Heräämisen adhkar",
+      "PRAYER": "Rukouksen adhkar",
+      "TRAVEL": "Matkan adhkar",
+      "FOOD": "Ruokailun adhkar",
+      "GENERAL": "Yleiset adhkar"
+    },
+    "searchPlaceholder": "Hae adhkareita ja du'ia...",
+    "noResults": "Vastaavia tuloksia ei löytynyt"
+  },
+  "prophets": {
+    "title": "Profeettojen ja lähettiläiden tarinat",
+    "ayah": "﴿ وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ أَنبَاءِ الرُّسُلِ ﴾",
+    "inQuran": "× Koraanissa",
+    "backToList": "← Takaisin profeettojen luetteloon",
+    "storyTitle": "Tarina",
+    "lessonsTitle": "Opetukset ja pohdinnat",
+    "referencesTitle": "Maininnat Koraanissa"
+  },
+  "seerah": {
+    "title": "Profeetan elämäkerta",
+    "subtitle": "Muhammad, Allahin lähettiläs ﷺ",
+    "period": "570 jaa. — 632 jaa. | 23 vuotta profeettuutta",
+    "age": "vuotta hänen elämästään ﷺ",
+    "prophethood": "vuotta profeettuutta",
+    "battles": "taistelua",
+    "closingAyahRef": "Suura Al-Ahzab — Jae 21",
+    "closingAyah": "﴿ لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ ﴾"
+  },
+  "ai": {
+    "title": "Al-Rashid",
+    "subtitle": "Islamilainen tekoälyavustaja — vastaukset Koraanista ja sunnasta",
+    "online": "Paikalla nyt",
+    "soundOn": "Ääni päällä",
+    "soundOff": "Ääni pois",
+    "serverTTS": "Neuroääni",
+    "browserTTS": "Selain",
+    "stop": "Pysäytä",
+    "listen": "🔊 Kuuntele",
+    "placeholder": "Kirjoita islamiin liittyvä kysymyksesi tähän...",
+    "disclaimer": "Avustaja vastaa Koraanin ja profeetan sunnan pohjalta — tarkista aina lähteet",
+    "greeting": "Rauha olkoon sinulle (Assalamu Alaikum) 🌙\n\nOlen \"Al-Rashid\", islamilainen tekoälyavustajasi. Vastaan kysymyksiisi Pyhän Koraanin ja profeetan aidon sunnan pohjalta.\n\nMiten voin auttaa sinua tänään?",
+    "errorGeneral": "Valitettavasti tapahtui virhe. Yritä uudelleen.",
+    "errorConnection": "Valitettavasti tapahtui yhteysvirhe. Varmista, että API-avain on määritetty.",
+    "userAvatar": "S",
+    "quickQuestions": [
+      "Mitkä ovat islamin viisi pilaria?",
+      "Mikä on Koraanin lukemisen ansio?",
+      "Mitkä ovat uskon kuusi pilaria?",
+      "Selitä tawhidin merkitys",
+      "Mikä on rukouksen asema islamissa?",
+      "Mikä on anteeksipyytämisen (istighfar) ansio?"
+    ]
+  },
+  "videos": {
+    "title": "📺 Islamilaiset videot",
+    "subtitle": "Ammattimainen islamilainen lähde, joka sisältää luentoja, oppitunteja ja luotettavia da'wa-videoita tunnetuilta oppineilta ja saarnaajilta, jotta voit oppia ja palata totuuteen luottavaisin mielin.",
+    "quickSearch": "Nopea ja tehokas haku",
+    "searchPlaceholder": "Hae videoita otsikon, kanavan, puhujan tai luokan mukaan",
+    "categoryFilter": "Luokka",
+    "channelAndSpeaker": "Kanava ja puhuja",
+    "statsAvailable": "Saatavilla olevat videot",
+    "statsFeatured": "Nostot",
+    "statsFeaturedDesc": "Luotettavia valintoja",
+    "discover": "Tutustu islamiin",
+    "discoverDesc": "Jos haluat oppia islamista ja profeetta Muhammadin ﷺ sanomasta, löydät täältä valikoiman johdantovideoita luotettavalla ja selkeällä tiedolla.",
+    "sectionDesc": "Valikoitu kokoelma tähän islamilaiseen aihepiiriin liittyviä videoita.",
+    "referenceTitle": "Ammattimainen islamilainen lähde",
+    "referenceDesc": "Kaikki videot esitetään virallisina YouTube-linkkeinä haku-, suodatus-, suosikki- ja jakotoiminnoin, säilyttäen sivuston visuaalisen ilmeen ja tieteellisen laadun.",
+    "watchNow": "Katso nyt",
+    "share": "Jaa",
+    "copyLink": "Kopioi linkki",
+    "saved": "Tallennettu",
+    "addToFavorites": "Lisää suosikkeihin",
+    "libraryBadge": "Luotettava da'wa-kirjasto",
+    "libraryStats": "Kirjaston tilastot",
+    "visitChannel": "Vieraile kanavalla",
+    "noResults": "Hakuasi vastaavia videoita ei löytynyt.",
+    "channelChip": "Kanava: {channel}",
+    "sheikhChip": "Sheikki: {sheikh}",
+    "playAria": "Toista video: {title}",
+    "thumbnailAlt": "Videon pikkukuva: {title}",
+    "langArabic": "Arabia",
+    "langEnglish": "Englanti",
+    "categories": {
+      "aqeedah": "Aqida",
+      "fiqh": "Fiqh",
+      "seerah": "Sira",
+      "dawah": "Da'wa",
+      "tazkiyah": "Tazkiya"
+    }
+  },
+  "common": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "loading": "Ladataan...",
+    "error": "Tapahtui virhe",
+    "retry": "Yritä uudelleen",
+    "back": "Takaisin",
+    "backToSite": "Takaisin sivustolle",
+    "admin": "Ylläpitäjä",
+    "dashboard": "Hallintapaneeli",
+    "all": "Kaikki",
+    "comingSoon": "Tulossa pian",
+    "play": "Toista"
+  },
+  "admin": {
+    "title": "As-Sirat Al-Mustaqeem -ylläpito",
+    "panel": "Ohjauspaneeli",
+    "nav": {
+      "dashboard": "Hallintapaneeli",
+      "users": "Käyttäjät",
+      "content": "Sisältö",
+      "hadiths": "Hadithit",
+      "adhkar": "Adhkar",
+      "analytics": "Analytiikka",
+      "settings": "Asetukset"
+    },
+    "backToSite": "Takaisin sivustolle"
+  },
+  "asmaAllah": {
+    "searchPlaceholder": "Hae Allahin nimeä...",
+    "resultsCount": "{count} / 99 nimeä",
+    "noResults": "Vastaavia tuloksia ei löytynyt",
+    "description": "Kaikki Allahin 99 kaunista nimeä merkityksineen, selityksineen ja Koraani-viitteineen.",
+    "ayah": "﴿ وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَى فَادْعُوهُ بِهَا ﴾"
+  },
+  "prayerTimes": {
+    "cityLabel": "Kaupunki",
+    "countryLabel": "Maakoodi",
+    "cityPlaceholder": "Jidda",
+    "countryPlaceholder": "SA",
+    "searchBtn": "Hae",
+    "useMyLocation": "📍 Käytä nykyistä sijaintiani",
+    "loading": "Ladataan rukousaikoja...",
+    "errorFetch": "Rukousaikojen haku epäonnistui",
+    "errorConnection": "Yhteys rukousaikapalveluun epäonnistui",
+    "errorLocation": "Sijaintiisi ei saatu yhteyttä — voit valita kaupungin itse",
+    "yourLocation": "Nykyinen sijaintisi",
+    "nextPrayer": "Seuraava rukous",
+    "after": "{time} päästä",
+    "hoursAndMinutes": "{h} t {m} min",
+    "minutesOnly": "{m} min",
+    "midnight": "Keskiyö",
+    "prayers": {
+      "imsak": "Imsak",
+      "fajr": "Fajr",
+      "sunrise": "Auringonnousu",
+      "dhuhr": "Dhuhr",
+      "asr": "Asr",
+      "maghrib": "Maghrib",
+      "isha": "Isha"
+    },
+    "pageDescription": "Kaupunkisi tai nykyisen sijaintisi täydelliset rukousajat: Fajr, auringonnousu, Dhuhr, Asr, Maghrib ja Isha."
+  },
+  "livePage": {
+    "title": "Suora lähetys",
+    "subtitle": "Seuraa islamilaisia tv- ja radiokanavia suorana, sivuston ilmeeseen sopivassa mukavassa käyttökokemuksessa.",
+    "tvTitle": "Suorat tv-kanavat",
+    "radioTitle": "Islamilaiset radioasemat",
+    "radioPromo": "Anna Koraanin ja profeetan hadithien äänen kulkea mukanasi missä ikinä oletkin — suora radio ympäri vuorokauden korkealla laadulla, yhden napautuksen päässä."
+  },
+  "scholarsPage": {
+    "title": "Oppineet ja saarnaajat",
+    "subtitle": "Luotettava hakemisto oppineista, saarnaajista ja virallisista islamilaisista instituutioista, linkitettynä vain heidän vahvistettuihin virallisiin lähteisiinsä.",
+    "categories": {
+      "saudi": "Saudi-Arabian oppineet",
+      "international": "Kansainväliset saarnaajat ja sheikit",
+      "organization": "Viralliset islamilaiset instituutiot ja elimet"
+    },
+    "specialtyLabel": "Erikoisala:",
+    "countryLabel": "Maa:",
+    "links": {
+      "website": "Vieraile sivustolla",
+      "youtube": "YouTube",
+      "fatwa": "Fatwat",
+      "lectures": "Luennot",
+      "x": "X",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+    "photoAlt": "Kuva: {name}, {specialty}"
+  },
+  "kidsPage": {
+    "title": "Lasten osio",
+    "subtitle": "Yksinkertaista ja hauskaa sisältöä, jonka avulla lapset oppivat islamista askel askeleelta kuvien ja helppojen selitysten avulla.",
+    "lessons": {
+      "wudu": {
+        "title": "Opi wudu",
+        "desc": "Wudun vaiheet ja miksi se on tärkeä"
+      },
+      "prayer": {
+        "title": "Opi rukous",
+        "desc": "Rukouksen perusvaiheet ja pilarit"
+      },
+      "umrah": {
+        "title": "Opi umra",
+        "desc": "Umran vaiheet yksinkertaisesti selitettynä"
+      },
+      "hajj": {
+        "title": "Opi hajj",
+        "desc": "Hajjin pyhät paikat ja vaiheet"
+      },
+      "learn": {
+        "title": "Islam lapsille",
+        "desc": "Islamin perusteet ja pilarit"
+      }
+    }
+  },
+  "kidsLesson": {
+    "explanationTitle": "Yksinkertainen selitys",
+    "watchVideoTitle": "Katso video",
+    "quizTitle": "Pikavisa",
+    "answerLabel": "Vastaus"
+  }
+}

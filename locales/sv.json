@@ -1,0 +1,613 @@
+{
+  "meta": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "siteDesc": "En heltäckande islamisk plattform för den Heliga Koranen, profetens sunna och de islamiska vetenskaperna"
+  },
+  "nav": {
+    "home": "Hem",
+    "quran": "Koranen",
+    "hadith": "Hadither",
+    "adhkar": "Adhkar",
+    "prophets": "Profeter",
+    "live": "Live",
+    "scholars": "Lärda",
+    "kids": "Barn",
+    "islamicVideos": "Videor",
+    "library": "Islamiskt bibliotek",
+    "mainSection": "Huvudmeny",
+    "seerah": "Sira",
+    "asmaAllah": "Allahs namn",
+    "prayerTimes": "Bönetider",
+    "search": "Sök",
+    "toggleTheme": "Byt tema",
+    "openMenu": "Öppna menyn",
+    "closeMenu": "Stäng menyn",
+    "language": "Språk"
+  },
+  "footer": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "siteDesc": "En heltäckande islamisk plattform för den Heliga Koranen, profetens sunna och de islamiska vetenskaperna",
+    "sections": {
+      "quranHadith": "Koranen och hadith",
+      "adhkarDua": "Adhkar och du'a",
+      "islamicSciences": "Islamiska vetenskaper",
+      "services": "Tjänster"
+    },
+    "links": {
+      "quran": "Den Heliga Koranen",
+      "tafsir": "Tafsir",
+      "bukhari": "Sahih al-Bukhari",
+      "muslim": "Sahih Muslim",
+      "morningAdhkar": "Morgonens adhkar",
+      "eveningAdhkar": "Kvällens adhkar",
+      "hisnMuslim": "Hisn al-Muslim",
+      "travelAdhkar": "Reseadhkar",
+      "prophetsStories": "Profeternas berättelser",
+      "seerah": "Profetens biografi",
+      "asmaAllah": "Allahs 99 namn",
+      "prayerTimes": "Bönetider",
+      "search": "Fullständig sökning",
+      "aiAssistant": "Islamisk assistent"
+    },
+    "privacy": "Integritetspolicy",
+    "terms": "Villkor",
+    "contact": "Kontakta oss",
+    "copyright": "Alla rättigheter förbehållna"
+  },
+  "home": {
+    "bismillah": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+    "title": "As-Sirat Al-Mustaqeem",
+    "subtitle": "En heltäckande islamisk plattform för den Heliga Koranen, profetens sunna och de islamiska vetenskaperna",
+    "ayah": "﴿ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴾",
+    "surahRef": "Sura Al-Fatiha — Vers 6",
+    "btnQuran": "📖 Den Heliga Koranen",
+    "btnAdhkar": "📿 Adhkar",
+    "btnAI": "🤖 AI-assistent",
+    "stats": {
+      "verses": "Koranverser",
+      "hadiths": "Hadither",
+      "prophets": "Profetberättelser",
+      "names": "Allahs namn"
+    },
+    "sectionTitle": "Webbplatsens avdelningar",
+    "sectionDesc": "Allt en muslim behöver på ett ställe",
+    "features": {
+      "quran": {
+        "title": "Den Heliga Koranen",
+        "desc": "Hela Koranen med tafsir och verssökning",
+        "badge": "114 suror"
+      },
+      "hadith": {
+        "title": "Profetens hadither",
+        "desc": "Sahih al-Bukhari, Muslim och de stora sunan-samlingarna med klassificering",
+        "badge": "6 böcker"
+      },
+      "adhkar": {
+        "title": "Adhkar och du'a",
+        "desc": "Hela Hisn al-Muslim — morgon-, kvälls- och sovadhkar",
+        "badge": "200+ adhkar"
+      },
+      "prophets": {
+        "title": "Profeternas berättelser",
+        "desc": "Berättelserna om alla profeter som nämns i Koranen",
+        "badge": "25 profeter"
+      },
+      "seerah": {
+        "title": "Profetens biografi",
+        "desc": "Profetens ﷺ hela liv — från födelse till död",
+        "badge": "Komplett"
+      },
+      "asmaAllah": {
+        "title": "Allahs 99 namn",
+        "desc": "Förklaring av de 99 namnen med betydelser och förtjänster",
+        "badge": "99 namn"
+      },
+      "prayerTimes": {
+        "title": "Bönetider",
+        "desc": "Exakta bönetider för alla städer i världen",
+        "badge": "Exakta"
+      },
+      "ai": {
+        "title": "Islamisk AI-assistent",
+        "desc": "Ställ vilken fråga som helst — svar från Koranen och sunna",
+        "badge": "AI"
+      }
+    },
+    "dailyAyah": "Dagens vers",
+    "dailyAyahRef": "Sura At-Talaq — Vers 2-3",
+    "readFullSurah": "Läs hela suran",
+    "aiTitle": "Den islamiska AI-assistenten \"Al-Rashid\"",
+    "aiDesc": "Ställ vilken islamisk fråga som helst så svarar assistenten utifrån den Heliga Koranen och profetens autentiska sunna",
+    "aiBtn": "Starta samtalet",
+    "servicesTitle": "Islamiska tjänster",
+    "servicesDesc": "Ett urval tjänster för dina dagliga islamiska behov",
+    "services": {
+      "live": {
+        "title": "Live",
+        "desc": "Titta på islamiska kanaler direkt"
+      },
+      "scholars": {
+        "title": "Lärda",
+        "desc": "Möt pålitliga lärda och predikanter"
+      },
+      "kids": {
+        "title": "Utbildning för barn",
+        "desc": "Enkla, barnvänliga islamiska lektioner"
+      },
+      "hadith": {
+        "title": "Hadith",
+        "desc": "Utvalda hadither med sökning och delning"
+      }
+    },
+    "featuresVideos": {
+      "title": "Islamiska videor",
+      "desc": "Pålitliga föreläsningar från officiella islamiska kanaler"
+    },
+    "btnWatchVideos": "📺 Titta på videor",
+    "btnLiveMakkah": "📡 Live från Mecka",
+    "journey": {
+      "title": "Börja din resa",
+      "subtitle": "En enkel guide, steg för steg, för alla som är nyfikna på islam",
+      "steps": {
+        "islam": "Vad är islam?",
+        "allah": "Vem är Allah?",
+        "prophet": "Vem är profeten Muhammad ﷺ?",
+        "quran": "Vad är Koranen?",
+        "prayer": "Varför ber vi?",
+        "ramadan": "Ramadan",
+        "hajj": "Hajj",
+        "live": "Se Mecka live",
+        "ai": "Fråga AI"
+      }
+    },
+    "whyExplore": {
+      "title": "Varför utforska islam",
+      "subtitle": "Universella mänskliga värden i islams hjärta",
+      "values": {
+        "mercy": {
+          "title": "Barmhärtighet",
+          "desc": "Muslimer inleder varje handling i den Nåderikes namn — barmhärtighet är central i hur islam ser på hela skapelsen.",
+          "ref": "Sura Al-Anbiya — Vers 107"
+        },
+        "justice": {
+          "title": "Rättvisa",
+          "desc": "Islam befaller rättvisa även mot dem vi ogillar, och knyter den nära till gudsfruktan.",
+          "ref": "Sura Al-Ma'ida — Vers 8"
+        },
+        "compassion": {
+          "title": "Medkänsla",
+          "desc": "Profeten ﷺ beskrev de troende som en enda kropp i sin ömsesidiga medkänsla.",
+          "ref": "Muttafaq 'alayh (enhälligt överenskommen)"
+        },
+        "knowledge": {
+          "title": "Kunskap",
+          "desc": "Koranens första uppenbarelse var en uppmaning att läsa — att söka kunskap är en plikt för varje muslim.",
+          "ref": "Sura Al-Alaq — Vers 1"
+        },
+        "family": {
+          "title": "Familj",
+          "desc": "Islam lägger stor vikt vid att hedra föräldrarna och bevara familjebanden.",
+          "ref": "Sura Al-Isra — Vers 23"
+        },
+        "hope": {
+          "title": "Hopp",
+          "desc": "Islam förbjuder att förtvivla över Guds barmhärtighet, hur stor svårigheten än är.",
+          "ref": "Sura Az-Zumar — Vers 53"
+        },
+        "peace": {
+          "title": "Fred",
+          "desc": "Ordet \"islam\" delar själv rot med \"fred\", och muslimer hälsar varandra med det.",
+          "ref": "Sura An-Nisa — Vers 94"
+        },
+        "honesty": {
+          "title": "Ärlighet",
+          "desc": "Profeten ﷺ uppmanade till sanningsenlighet tills den för en människa till de uppriktigas led.",
+          "ref": "Muttafaq 'alayh (enhälligt överenskommen)"
+        }
+      }
+    },
+    "meetProphet": {
+      "title": "Möt profeten Muhammad ﷺ",
+      "subtitle": "Den siste profeten, en barmhärtighet för alla världar, till vilken Koranen uppenbarades",
+      "cta": "Läs mer"
+    },
+    "discoverQuran": {
+      "title": "Upptäck Koranen",
+      "subtitle": "6 236 verser nära till hands — läs, lyssna och sök",
+      "tiles": {
+        "read": "Läs",
+        "listen": "Lyssna",
+        "translations": "Översättningar",
+        "randomVerse": "Slumpvis vers",
+        "search": "Sök",
+        "continueReading": "Fortsätt läsa"
+      }
+    },
+    "fivePillarsSection": {
+      "title": "Islams fem pelare",
+      "subtitle": "Grunden som en muslims liv vilar på",
+      "pillars": {
+        "shahada": {
+          "name": "Shahada",
+          "desc": "Att vittna om att det inte finns någon gud utom Allah, och att Muhammad är Hans sändebud"
+        },
+        "salah": {
+          "name": "Salah",
+          "desc": "Fem dagliga böner som förbinder den troende med Gud"
+        },
+        "zakat": {
+          "name": "Zakat",
+          "desc": "Att ge en del av sin förmögenhet till de behövande"
+        },
+        "sawm": {
+          "name": "Sawm",
+          "desc": "Att fasta under ramadan för självdisciplin och gudsmedvetenhet"
+        },
+        "hajj": {
+          "name": "Hajj",
+          "desc": "En vallfärd till Mecka en gång i livet för den som har möjlighet"
+        }
+      }
+    },
+    "worldStats": {
+      "title": "Islam i världen",
+      "stats": {
+        "muslims": "Muslimer i världen",
+        "countries": "Länder med muslimsk majoritet",
+        "religion": "Snabbast växande religion",
+        "history": "År av obruten historia"
+      }
+    },
+    "faqSection": {
+      "title": "Vanliga frågor",
+      "subtitle": "Korta svar på de vanligaste frågorna om islam"
+    },
+    "watchLearn": {
+      "title": "Titta och lär",
+      "subtitle": "Endast föreläsningar från verifierade officiella islamiska kanaler",
+      "playAria": "Spela upp video: {title}",
+      "seeAll": "Se alla videor"
+    },
+    "liveMakkah": {
+      "title": "Live från Mecka och Medina",
+      "subtitle": "Följ den officiella sändningen dygnet runt från de två heliga moskéerna",
+      "status": "Direktsändning",
+      "seeAll": "Se alla livekanaler"
+    },
+    "trustedScholarsSection": {
+      "title": "Pålitliga lärda",
+      "subtitle": "Möt verifierade lärda och predikanter, med länkar endast till deras officiella källor",
+      "seeAll": "Se alla lärda"
+    },
+    "dailyInspiration": {
+      "title": "Daglig inspiration",
+      "subtitle": "En vers, en hadith och en du'a — förnyas varje dag"
+    },
+    "todaysPicks": {
+      "featuredVideo": "Dagens utvalda video",
+      "featuredScholar": "Dagens utvalda lärde"
+    },
+    "finalCta": {
+      "title": "Fortsätt din resa",
+      "subtitle": "Var du än börjar finns den här webbplatsen här för att följa dig i varje steg",
+      "btnQuran": "📖 Läs Koranen",
+      "btnAI": "🤖 Fråga AI",
+      "btnVideos": "📺 Titta på videor",
+      "btnLearnMore": "🌟 Läs mer"
+    },
+    "voiceIntro": {
+      "listen": "🔊 Lyssna på en introduktion",
+      "stop": "⏹ Stoppa",
+      "unavailable": "Uppläsning är inte tillgänglig i din webbläsare för det här språket.",
+      "text": "Frid och välsignelser över dig, och välkommen till As-Sirat Al-Mustaqeem.\n\nIslam är den gudomliga enhetens och barmhärtighetens religion. Den kallar människor att dyrka den Ende Guden allena, och den bygger på rättvisa och medkänsla mot hela skapelsen. Gud sände profeten Muhammad, frid vare med honom, som en barmhärtighet för hela världen.\n\nDen här webbplatsen erbjuder dig en komplett resa genom allt som rör din tro, från början till slut: hela den Heliga Koranen med tolkning och recitation, profetens autentiska hadither från pålitliga samlingar, profeternas berättelser så som de nämns i Koranen, profetens fullständiga biografi från födelse till bortgång, Allahs nittionio vackra namn med deras betydelser och förtjänster, och en omfattande samling dagliga adhkar.\n\nDu hittar också en avdelning om pålitliga lärda och predikanter, ett bibliotek med meningsfulla islamiska videor, en direktsändning dygnet runt från de två heliga moskéerna, exakta bönetider för din stad, en särskild avdelning för att lära dina barn grunderna i deras tro på ett engagerande sätt, och en sökfunktion för att snabbt hitta det innehåll du letar efter.\n\nTa den tid du behöver, och utforska det som intresserar dig, helt utan press eller brådska. Den här dörren står öppen för alla som vill lära sig, fråga eller bara reflektera.\n\nOch om någon fråga dyker upp är vår AI-assistent, Al-Rashid, redo att svara utifrån Koranen och profetens sunna, när som helst.\n\nVi önskar dig en trevlig och meningsfull resa."
+    }
+  },
+  "quran": {
+    "title": "Den Heliga Koranen",
+    "subtitle": "Allahs ord uppenbarat för profeten Muhammad ﷺ — 114 suror — 6 236 verser",
+    "searchPlaceholder": "Sök en sura efter namn eller nummer...",
+    "resultsCount": "{count} resultat",
+    "noResults": "Ingen sura hittades med det namnet",
+    "clearSearch": "Rensa sökningen",
+    "surahsLabel": "Suror",
+    "versesLabel": "Verser",
+    "ajzaLabel": "Ajza",
+    "ayahsCount": "verser",
+    "meccan": "Meckansk",
+    "medinan": "Medinensisk",
+    "backToList": "Tillbaka till surornas lista",
+    "copy": "Kopiera",
+    "showTranslation": "Visa översättning",
+    "modeList": "Vers för vers",
+    "modeReading": "Löpande text",
+    "page": "Sida",
+    "copied": "Kopierat",
+    "prevSurah": "Föregående sura",
+    "juz": "Juz",
+    "nextSurah": "Nästa sura",
+    "referenceTitle": "Koranreferens",
+    "referenceDesc": "Den här externa referensen låter dig läsa den Heliga Koranen med uthmanisk skrift, lyssna på recitationer, läsa tafsir, söka verser och bläddra bland suror med lätthet.\nDen här webbplatsen visar inte själva referensens innehåll — den ger bara snabb åtkomst till den.",
+    "referenceLinkBtn": "Gå till Koranreferensen",
+    "referenceFeatures": {
+      "read": {
+        "title": "📖 Läs den Heliga Koranen",
+        "desc": "Gå direkt till att läsa den Heliga Koranen i tydlig uthmanisk skrift."
+      },
+      "listen": {
+        "title": "🎧 Lyssna på recitationer",
+        "desc": "Lyssna på recitationer från pålitliga källor på den externa referensen."
+      },
+      "tafsir": {
+        "title": "📚 Koranens tafsir",
+        "desc": "Bläddra enkelt bland flera tolkningar av verserna."
+      },
+      "search": {
+        "title": "🔍 Sök i Koranen",
+        "desc": "Sök verser och suror snabbt och exakt."
+      },
+      "browse": {
+        "title": "⭐ Bläddra bland alla suror",
+        "desc": "Bläddra enkelt i den fullständiga listan över suror."
+      }
+    },
+    "referenceNote": "Referensen öppnas i ett nytt fönster så att du kan använda alla dess tjänster och enkelt återvända till vår webbplats."
+  },
+  "hadith": {
+    "title": "Profetens ädla hadither",
+    "subtitle": "قَالَ رَسُولُ اللَّهِ ﷺ",
+    "booksTitle": "Hadithsamlingar",
+    "selectedTitle": "Utvalda hadither",
+    "hadithsUnit": "hadither",
+    "narrator": "Berättad av",
+    "grades": {
+      "SAHIH": "Sahih",
+      "HASAN": "Hasan",
+      "DAIF": "Da'if",
+      "MAWDU": "Mawdu'"
+    },
+    "heroDesc": "En utvald samling autentiska (sahih) och goda (hasan) hadither från Al-Arba'in An-Nawawiyya och Riyad as-Salihin, ordnade efter ämne och grad.",
+    "dorarTitle": "Sök i uppslagsverket Dorar As-Saniyya",
+    "dorarDesc": "Sök bland miljontals hadither och ämnen direkt på webbplatsen Dorar As-Saniyya, med snabblänk till sökningen och de specialiserade uppslagsverken.",
+    "dorarPlaceholder": "Skriv ditt sökord och tryck på sök",
+    "dorarSearchBtn": "Sök",
+    "visitDorar": "Besök uppslagsverket Dorar As-Saniyya",
+    "servicesTitle": "Dorar As-Saniyyas tjänster",
+    "servicesDesc": "Snabblänkar till Dorar As-Saniyyas viktigaste uppslagsverk så att du kommer direkt till de böcker och tjänster du söker.",
+    "serviceOpenDesc": "Öppnar motsvarande avdelning på webbplatsen Dorar As-Saniyya.",
+    "services": {
+      "encyclopedia": "Hadithuppslagsverk",
+      "adhkar": "Adhkar",
+      "duas": "Du'a",
+      "scientific": "Vetenskapligt uppslagsverk",
+      "fiqh": "Fiqh-uppslagsverk"
+    },
+    "filterPlaceholder": "Sök hadither, berättare eller ämnen",
+    "categoriesLabel": "Kategorier:",
+    "shareTitle": "Islamisk hadith",
+    "copyHadithBtn": "Kopiera hadithen",
+    "shareHadithBtn": "Dela hadithen"
+  },
+  "adhkar": {
+    "title": "Adhkar och du'a",
+    "subtitle": "Hisn al-Muslim — adhkar överlämnade från profeten ﷺ",
+    "source": "Källa",
+    "of": "av",
+    "categories": {
+      "MORNING": "Morgonens adhkar",
+      "EVENING": "Kvällens adhkar",
+      "SLEEP": "Adhkar före sömn",
+      "WAKE_UP": "Adhkar vid uppvaknande",
+      "PRAYER": "Bönens adhkar",
+      "TRAVEL": "Reseadhkar",
+      "FOOD": "Måltidsadhkar",
+      "GENERAL": "Allmänna adhkar"
+    },
+    "searchPlaceholder": "Sök adhkar och du'a...",
+    "noResults": "Inga matchande resultat hittades"
+  },
+  "prophets": {
+    "title": "Berättelser om profeter och sändebud",
+    "ayah": "﴿ وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ أَنبَاءِ الرُّسُلِ ﴾",
+    "inQuran": "× i Koranen",
+    "backToList": "← Tillbaka till profeternas lista",
+    "storyTitle": "Berättelsen",
+    "lessonsTitle": "Lärdomar och reflektioner",
+    "referencesTitle": "Omnämnanden i Koranen"
+  },
+  "seerah": {
+    "title": "Profetens biografi",
+    "subtitle": "Muhammad, Allahs sändebud ﷺ",
+    "period": "570 e.Kr. — 632 e.Kr. | 23 år av profetskap",
+    "age": "år av hans liv ﷺ",
+    "prophethood": "år av profetskap",
+    "battles": "slag",
+    "closingAyahRef": "Sura Al-Ahzab — Vers 21",
+    "closingAyah": "﴿ لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ ﴾"
+  },
+  "ai": {
+    "title": "Al-Rashid",
+    "subtitle": "Islamisk AI-assistent — svar från Koranen och sunna",
+    "online": "Online nu",
+    "soundOn": "Ljud på",
+    "soundOff": "Ljud av",
+    "serverTTS": "Neural röst",
+    "browserTTS": "Webbläsare",
+    "stop": "Stoppa",
+    "listen": "🔊 Lyssna",
+    "placeholder": "Skriv din islamiska fråga här...",
+    "disclaimer": "Assistenten svarar utifrån Koranen och profetens sunna — kontrollera alltid källorna",
+    "greeting": "Frid vare med dig (Assalamu Alaikum) 🌙\n\nJag är \"Al-Rashid\", din islamiska AI-assistent. Jag besvarar dina frågor utifrån den Heliga Koranen och profetens autentiska sunna.\n\nHur kan jag hjälpa dig i dag?",
+    "errorGeneral": "Tyvärr uppstod ett fel. Försök igen.",
+    "errorConnection": "Tyvärr uppstod ett anslutningsfel. Kontrollera att API-nyckeln är konfigurerad.",
+    "userAvatar": "D",
+    "quickQuestions": [
+      "Vilka är islams fem pelare?",
+      "Vilken förtjänst har det att läsa Koranen?",
+      "Vilka är trons sex pelare?",
+      "Förklara betydelsen av tawhid",
+      "Vad är regeln om bön i islam?",
+      "Vilken förtjänst har det att be om förlåtelse (istighfar)?"
+    ]
+  },
+  "videos": {
+    "title": "📺 Islamiska videor",
+    "subtitle": "En professionell islamisk referens med föreläsningar, lektioner och pålitliga da'wa-klipp från välkända lärda och predikanter, så att du kan lära dig och återvända till sanningen med trygghet.",
+    "quickSearch": "Snabb och effektiv sökning",
+    "searchPlaceholder": "Sök videor efter titel, kanal, talare eller kategori",
+    "categoryFilter": "Kategori",
+    "channelAndSpeaker": "Kanal och talare",
+    "statsAvailable": "Tillgängliga videor",
+    "statsFeatured": "Utvalt innehåll",
+    "statsFeaturedDesc": "Pålitliga urval",
+    "discover": "Upptäck islam",
+    "discoverDesc": "Om du vill lära dig om islam och profeten Muhammads ﷺ budskap hittar du här ett urval introduktionsvideor med pålitlig och tydlig information.",
+    "sectionDesc": "En utvald samling videor inom detta islamiska område.",
+    "referenceTitle": "Professionell islamisk referens",
+    "referenceDesc": "Alla videor presenteras som officiella YouTube-länkar med sökning, filtrering, favoriter och delning, samtidigt som webbplatsens visuella identitet och vetenskapliga kvalitet bevaras.",
+    "watchNow": "Titta nu",
+    "share": "Dela",
+    "copyLink": "Kopiera länk",
+    "saved": "Sparad",
+    "addToFavorites": "Lägg till i favoriter",
+    "libraryBadge": "Pålitligt da'wa-bibliotek",
+    "libraryStats": "Bibliotekets statistik",
+    "visitChannel": "Besök kanalen",
+    "noResults": "Inga videor matchar din sökning.",
+    "channelChip": "Kanal: {channel}",
+    "sheikhChip": "Sheikh: {sheikh}",
+    "playAria": "Spela upp video: {title}",
+    "thumbnailAlt": "Miniatyrbild för video: {title}",
+    "langArabic": "Arabiska",
+    "langEnglish": "Engelska",
+    "categories": {
+      "aqeedah": "Aqida",
+      "fiqh": "Fiqh",
+      "seerah": "Sira",
+      "dawah": "Da'wa",
+      "tazkiyah": "Tazkiya"
+    }
+  },
+  "common": {
+    "siteName": "As-Sirat Al-Mustaqeem",
+    "loading": "Laddar...",
+    "error": "Ett fel uppstod",
+    "retry": "Försök igen",
+    "back": "Tillbaka",
+    "backToSite": "Tillbaka till webbplatsen",
+    "admin": "Administratör",
+    "dashboard": "Översikt",
+    "all": "Alla",
+    "comingSoon": "Kommer snart",
+    "play": "Spela upp"
+  },
+  "admin": {
+    "title": "As-Sirat Al-Mustaqeem administration",
+    "panel": "Kontrollpanel",
+    "nav": {
+      "dashboard": "Översikt",
+      "users": "Användare",
+      "content": "Innehåll",
+      "hadiths": "Hadither",
+      "adhkar": "Adhkar",
+      "analytics": "Statistik",
+      "settings": "Inställningar"
+    },
+    "backToSite": "Tillbaka till webbplatsen"
+  },
+  "asmaAllah": {
+    "searchPlaceholder": "Sök ett av Allahs namn...",
+    "resultsCount": "{count} av 99 namn",
+    "noResults": "Inga matchande resultat hittades",
+    "description": "Allahs alla 99 vackra namn med betydelse, förklaring och koranreferens för varje namn.",
+    "ayah": "﴿ وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَى فَادْعُوهُ بِهَا ﴾"
+  },
+  "prayerTimes": {
+    "cityLabel": "Stad",
+    "countryLabel": "Landskod",
+    "cityPlaceholder": "Jeddah",
+    "countryPlaceholder": "SA",
+    "searchBtn": "Sök",
+    "useMyLocation": "📍 Använd min nuvarande plats",
+    "loading": "Laddar bönetider...",
+    "errorFetch": "Det gick inte att hämta bönetiderna",
+    "errorConnection": "Det gick inte att ansluta till bönetidstjänsten",
+    "errorLocation": "Kunde inte komma åt din plats — du kan välja en stad manuellt",
+    "yourLocation": "Din nuvarande plats",
+    "nextPrayer": "Nästa bön",
+    "after": "Om {time}",
+    "hoursAndMinutes": "{h} h {m} min",
+    "minutesOnly": "{m} min",
+    "midnight": "Midnatt",
+    "prayers": {
+      "imsak": "Imsak",
+      "fajr": "Fajr",
+      "sunrise": "Soluppgång",
+      "dhuhr": "Dhuhr",
+      "asr": "Asr",
+      "maghrib": "Maghrib",
+      "isha": "Isha"
+    },
+    "pageDescription": "Fullständiga bönetider för din stad eller nuvarande plats: Fajr, soluppgång, Dhuhr, Asr, Maghrib och Isha."
+  },
+  "livePage": {
+    "title": "Direktsändning",
+    "subtitle": "Följ islamiska tv- och radiokanaler live, i en bekväm upplevelse som passar webbplatsens identitet.",
+    "tvTitle": "Tv-kanaler live",
+    "radioTitle": "Islamiska radiostationer",
+    "radioPromo": "Låt Koranens och profetens hadithers röst följa dig vart du än är — radio live dygnet runt i hög kvalitet, bara ett tryck bort."
+  },
+  "scholarsPage": {
+    "title": "Lärda och predikanter",
+    "subtitle": "En pålitlig förteckning över lärda, predikanter och officiella islamiska institutioner, med länkar endast till deras verifierade officiella källor.",
+    "categories": {
+      "saudi": "Lärda från Saudiarabien",
+      "international": "Internationella predikanter och sheikher",
+      "organization": "Officiella islamiska institutioner och organ"
+    },
+    "specialtyLabel": "Specialitet:",
+    "countryLabel": "Land:",
+    "links": {
+      "website": "Besök webbplatsen",
+      "youtube": "YouTube",
+      "fatwa": "Fatwor",
+      "lectures": "Föreläsningar",
+      "x": "X",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+    "photoAlt": "Foto av {name}, {specialty}"
+  },
+  "kidsPage": {
+    "title": "Barnavdelningen",
+    "subtitle": "Enkelt och roligt innehåll där barn lär sig om islam steg för steg, med bilder och lätta förklaringar.",
+    "lessons": {
+      "wudu": {
+        "title": "Lär dig wudu",
+        "desc": "Stegen i wudu och varför det är viktigt"
+      },
+      "prayer": {
+        "title": "Lär dig bönen",
+        "desc": "Bönens grundläggande moment och pelare"
+      },
+      "umrah": {
+        "title": "Lär dig umra",
+        "desc": "Umrans steg, enkelt förklarade"
+      },
+      "hajj": {
+        "title": "Lär dig hajj",
+        "desc": "Hajjens heliga platser och steg"
+      },
+      "learn": {
+        "title": "Islam för barn",
+        "desc": "Islams grunder och pelare"
+      }
+    }
+  },
+  "kidsLesson": {
+    "explanationTitle": "Enkel förklaring",
+    "watchVideoTitle": "Titta på videon",
+    "quizTitle": "Snabbquiz",
+    "answerLabel": "Svar"
+  }
+}

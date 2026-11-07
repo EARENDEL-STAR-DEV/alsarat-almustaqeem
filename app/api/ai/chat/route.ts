@@ -69,6 +69,36 @@ const MESSAGES: Record<string, { intro: string; noAnswer: string; badRequest: st
     noAnswer: 'Wala akong nakitang tuwirang sagot dito sa nilalaman ng site. Subukang ibahin ang pagkakatanong, o sumangguni sa mapagkakatiwalaang iskolar, o tingnan ang site gaya ng islamweb.net o dorar.net.',
     badRequest: 'Mangyaring mag-type muna ng tanong.',
   },
+  he: {
+    intro: 'הנה מה שמצאתי באתר בנוגע לשאלתך:',
+    noAnswer: 'לא מצאתי תשובה ישירה לכך בתוכן האתר. נסה לנסח את השאלה אחרת, או פנה למלומד אמין, או עיין באתרים כמו islamweb.net או dorar.net.',
+    badRequest: 'אנא כתוב שאלה תחילה.',
+  },
+  vi: {
+    intro: 'Đây là những gì tôi tìm thấy trên trang liên quan đến câu hỏi của bạn:',
+    noAnswer: 'Tôi không tìm thấy câu trả lời trực tiếp cho điều này trong nội dung của trang. Hãy thử đặt câu hỏi theo cách khác, hoặc hỏi một học giả đáng tin cậy, hoặc tham khảo các trang như islamweb.net hay dorar.net.',
+    badRequest: 'Vui lòng nhập câu hỏi trước.',
+  },
+  ne: {
+    intro: 'तपाईंको प्रश्नसँग सम्बन्धित साइटमा मैले यो भेटेँ:',
+    noAnswer: 'साइटको सामग्रीमा मैले यसको सीधा उत्तर भेटिनँ। प्रश्न अर्को तरिकाले सोध्नुहोस्, वा भरपर्दो विद्वानसँग सोध्नुहोस्, वा islamweb.net वा dorar.net जस्ता साइटहरू हेर्नुहोस्।',
+    badRequest: 'कृपया पहिले प्रश्न लेख्नुहोस्।',
+  },
+  it: {
+    intro: 'Ecco cosa ho trovato sul sito riguardo alla tua domanda:',
+    noAnswer: 'Non ho trovato una risposta diretta nei contenuti del sito. Prova a riformulare la domanda, oppure rivolgiti a un sapiente affidabile, o consulta siti come islamweb.net o dorar.net.',
+    badRequest: 'Per favore, scrivi prima una domanda.',
+  },
+  sv: {
+    intro: 'Här är vad jag hittade på webbplatsen om din fråga:',
+    noAnswer: 'Jag hittade inget direkt svar på detta i webbplatsens innehåll. Försök formulera frågan på ett annat sätt, vänd dig till en pålitlig lärd, eller besök webbplatser som islamweb.net eller dorar.net.',
+    badRequest: 'Skriv en fråga först.',
+  },
+  fi: {
+    intro: 'Tässä on mitä löysin sivustolta kysymykseesi liittyen:',
+    noAnswer: 'En löytänyt tähän suoraa vastausta sivuston sisällöstä. Kokeile muotoilla kysymys toisin, käänny luotettavan oppineen puoleen tai katso sivustoja kuten islamweb.net tai dorar.net.',
+    badRequest: 'Kirjoita ensin kysymys.',
+  },
 }
 
 function messagesFor(language: string) {
